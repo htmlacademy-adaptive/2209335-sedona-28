@@ -1,7 +1,8 @@
 # Личный проект «Седона» 
 
 * Студент: [Яна Котельникова](https://up.htmlacademy.ru/adaptive/28/user/2209335).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+
 
 ---
 
