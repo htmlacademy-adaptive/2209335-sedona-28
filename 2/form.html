@@ -10,7 +10,7 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo">
-      <img src="img/logotip.svg" width="185" height="96" alt="город Седона." </a>
+      <img src="img/logosedona.svg" width="185" height="96" alt="город Седона." </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span>
         </button>
@@ -70,7 +70,7 @@
           </div>
         </fieldset>
       </section>
-      <section class="form__content form__content-contact">
+      <section class="form__content">
         <fieldset class="form__fieldset">
           <legend class="form__legend">Контактная информация:</legend>
           <div class="form__field-group">
@@ -85,98 +85,96 @@
           </div>
         </fieldset>
       </section>
-      <section class="form__content form__content-reviews">
-        <fieldset class="form__fieldset">
-          <legend class="form__legend">Ваше общее впечатление:</legend>
-          <ul class="form__list">
-            <li class="form__item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="positive" value="positive-review"
-                  checked>
-                <span class="control-mark"></span>
-                <span class="control-label">Скорее положительное</span>
+      <section class="form-content">
+        <fieldset class="form-content__fields form">
+          <legend class="form-content__legend form">Ваше общее впечатление:</legend>
+          <ul class="form-list">
+            <li class="form-list__element form">
+              <label class="form__controls">
+                <input class="visually-hidden control-input" type="radio" name="review" value="positive-review" checked>
+
+                <span class="form__control-label">Скорее положительное</span>
               </label>
             </li>
-            <li class="form__item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="negative" value="negative-review">
-                <span class="control-mark"></span>
-                <span class="control-label">Скорее отрицательное</span>
+            <li class="form-list__element form">
+              <label class="form__controls">
+                <input class="visually-hidden control-input" type="radio" name="review" value="negative-review">
+
+                <span class="form__control-label">Скорее отрицательное</span>
               </label>
             </li>
-            <li class="form__item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="hamper" value="humper-review">
-                <span class="control-mark"></span>
-                <span class="control-label">Затрудняюсь ответить</span>
+            <li class="form-list__element form">
+              <label class="form__controls">
+                <input class="visually-hidden control-input" type="radio" name="review" value="humper-review">
+
+                <span class="form__control-label">Затрудняюсь ответить</span>
               </label>
             </li>
           </ul>
         </fieldset>
       </section>
-      <section class="form__content form__content-sights">
-        <fieldset class="form__fieldset">
-          <legend class="form__legend">посещенные достопримечательности:</legend>
-          <ul class="form__list">
-            <li class="form__item">
-              <label class="control">
+      <section class="form-content">
+        <fieldset class="form-content__fields form">
+          <legend class="form-content__legend form">посещенные достопримечательности:</legend>
+          <ul class="form-list">
+            <li class="form-list__element form">
+              <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="bridge" checked>
-                <span class="control-mark"></span>
-                <span class="control-label">Мост Дьявола</span>
+
+                <span class="form__control-label">Мост Дьявола</span>
               </label>
             </li>
-            <li class="form__item">
-              <label class="control">
+            <li class="form-list__element form">
+              <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="mount" checked>
-                <span class="control-mark"></span>
-                <span class="control-label">Гора-Колокол</span>
+
+                <span class="form__control-label">Гора-Колокол</span>
               </label>
             </li>
-            <li class="form__item">
-              <label class="control">
+            <li class="form-list__element form">
+              <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="park" checked>
-                <span class="control-mark"></span>
-                <span class="control-label">Слайд-парк</span>
+
+                <span class="form__control-label">Слайд-парк</span>
               </label>
             </li>
-            <li class="form__item">
-              <label class="control">
+            <li class="form-list__element form">
+              <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="rock">
-                <span class="control-mark"></span>
-                <span class="control-label">Красные скалы</span>
+
+                <span class="form__control-label">Красные скалы</span>
               </label>
             </li>
           </ul>
         </fieldset>
       </section>
-      <small class="stats__legend--bottom">
+      <small class="stats-legend">
         * — обязательные поля
       </small>
     </form>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__wrapper">
-      <div class="main-footer__contacts">
-        <a class="contacts__link" href="">#visitsedona</a>
-      </div>
-      <div class="main-footer__social">
-        <b class="social__title">Давайте дружить!</b>
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
-          </li>
-        </ul>
-      </div>
-      <div class="main-footer__copyright">
-        <b class="copyright__text">Разработано</b>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-      </div>
+    <div class="main-footer__element contacts">
+      <a class="contacts__link" href="">#visitsedona</a>
+    </div>
+    <div class="main-footer social">
+      <b class="social__title">Давайте дружить!</b>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link" href="https://www.youtube.com/user/htmlacademyru">Мы в
+            Ютубе</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-footer copyright">
+      <b class="copyright__text">Разработано</b>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
     </div>
   </footer>
 
