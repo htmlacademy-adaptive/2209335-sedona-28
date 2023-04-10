@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page__body">
@@ -40,7 +41,7 @@
       </nav>
   </header>
   <main class="main-form">
-    <section class="gorgeous-inner">
+    <section class="form-inner">
       <h1 class="visually-hidden">Добро пожаловать в великолепную седону</h1>
       <img src="" width="" height="" alt="Горы Седоны.">
     </section>
@@ -86,23 +87,23 @@
       </section>
       <section class="form-content">
         <fieldset class="form-content__fields form">
-          <legend class="form-content__legend form">Ваше общее впечатление:</legend>
+          <legend class="form-content__legend">Ваше общее впечатление:</legend>
           <ul class="form-list">
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="radio" name="review" value="positive-review" checked>
 
                 <span class="form__control-label">Скорее положительное</span>
               </label>
             </li>
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="radio" name="review" value="negative-review">
 
                 <span class="form__control-label">Скорее отрицательное</span>
               </label>
             </li>
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="radio" name="review" value="humper-review">
 
@@ -114,30 +115,30 @@
       </section>
       <section class="form-content">
         <fieldset class="form-content__fields form">
-          <legend class="form-content__legend form">посещенные достопримечательности:</legend>
+          <legend class="form-content__legend">посещенные достопримечательности:</legend>
           <ul class="form-list">
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="bridge" checked>
 
                 <span class="form__control-label">Мост Дьявола</span>
               </label>
             </li>
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="mount" checked>
 
                 <span class="form__control-label">Гора-Колокол</span>
               </label>
             </li>
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="park" checked>
 
                 <span class="form__control-label">Слайд-парк</span>
               </label>
             </li>
-            <li class="form-list__element form">
+            <li class="form-list__element">
               <label class="form__controls">
                 <input class="visually-hidden control-input" type="checkbox" name="rock">
 
@@ -146,10 +147,17 @@
             </li>
           </ul>
         </fieldset>
+        <div class="stats__wrapper">
+          <form class="stats__form">
+            <label for="text">Опишите свои эмоции:</label>
+            <input type="text" id="text" placeholder="Опишите подробно все свои восторги">
+            <button class="button stats-button" type="submit">Отправить отзыв</button>
+            <small class="stats-legend">
+              * — обязательные поля
+            </small>
+          </form>
+        </div>
       </section>
-      <small class="stats-legend">
-        * — обязательные поля
-      </small>
     </form>
   </main>
   <footer class="main-footer">
