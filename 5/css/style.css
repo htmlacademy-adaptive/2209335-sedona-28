@@ -1,0 +1,238 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.photo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  width: 320px;
+  min-height: 100%;
+}
+
+.advantages-about {
+  width: 284px;
+  min-height: 157px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.advantages__title--about {
+  color: #000000;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.advantages__reasons {
+  color: #333333;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.advantages__text--white {
+  color: #FFFFFF;
+  background: #81B3D2;
+  width: 320px;
+  min-height: 191px;
+  text-align: center;
+  padding: 37px 18px;
+  text-transform: uppercase;
+}
+
+.advantages__item {
+  list-style-type: none;
+}
+
+.advantages__list {
+  padding: 0;
+  margin: 0;
+  background: #EEEEEE;
+}
+
+.advantages__item {
+  width: 320px;
+  min-height: 260px;
+  text-align: center;
+  background: #EEEEEE;
+}
+
+.advantages-photo {
+  display: flex;
+  flex-shrink: 0;
+  min-height: 260px;
+  padding-bottom: 23px;
+}
+
+.advantages__text {
+  padding: 23px 24px;
+  text-transform: uppercase;
+}
+
+.advantages__description {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.catalog {
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-top: 33px;
+}
+
+.copyright {
+  padding-left: 95px;
+  padding-right: 95px;
+  padding-bottom: 33px;
+}
+
+.main-header__logo {
+  margin-left: 67px;
+  margin-right: 25px;
+  z-index: 1;
+}
+
+.main-greeting {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("../img/background-index.jpg");
+  background-color: #496c81;
+  background-size: cover;
+  padding-left: 19px;
+  padding-top: 90px;
+  padding-right: 19px;
+  padding-bottom: 28px;
+  background-repeat: no-repeat;
+  width: 320px;
+}
+
+.main-header {
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.search {
+  text-transform: uppercase;
+  padding: 38px 29px 32px 38px;
+  text-align: center;
+  margin: 0;
+}
+
+.search__description {
+  color: #333333;
+}
+
+.services__item {
+  list-style-type: none;
+  width: 284px;
+  min-height: 113px;
+  text-align: left;
+}
+
+.services__list {
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+.services__title {
+  padding-left: 47px;
+  text-transform: uppercase;
+}
+
+.services__description {
+  padding-left: 47px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  padding: 30px 82px;
+}
+/*# sourceMappingURL=style.css.map */
