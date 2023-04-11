@@ -1,0 +1,24 @@
+.services__item{
+  list-style-type: none;
+  width: 284px;
+  min-height: 113px;
+  text-align:left;
+}
+
+.services__list{
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+.services__title{
+  padding-left: 47px;
+  text-transform: uppercase;
+}
+
+.services__description{
+  padding-left: 47px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
