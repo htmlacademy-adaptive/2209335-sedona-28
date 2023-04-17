@@ -1,5 +1,5 @@
-.advantages-about{
-  width: 284px;
+.advantages-about {
+  min-width: 284px;
   min-height: 157px;
   margin-left: 18px;
   margin-right: 18px;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.advantages__title--about{
+.advantages__title--about {
   color: #000000;
   font-size: 18px;
   line-height: 26px;
@@ -18,7 +18,7 @@
   padding-bottom: 35px;
 }
 
-.advantages__reasons{
+.advantages__reasons {
   color: #333333;
   font-size: 14px;
   line-height: 21px;
@@ -26,7 +26,7 @@
   text-transform: uppercase;
 }
 
-.advantages__text--white{
+.advantages__text--white {
   color: #FFFFFF;
   background: #81B3D2;
   width: 320px;
@@ -36,21 +36,46 @@
   text-transform: uppercase;
 }
 
-.advantages__item{
+.advantages__item {
   list-style-type: none;
+
+  @media (min-width: $tablet-width) {}
+
+  @media (min-width: $desktop-width) {}
 }
 
-.advantages__list{
+.advantages__list {
   padding: 0;
   margin: 0;
   background: #EEEEEE;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 256px;
+
+
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 256px;
+
+  }
 }
 
-.advantages__item{
-  width: 320px;
+.advantages__item {
+  min-width: 320px;
   min-height: 260px;
   text-align: center;
   background: #EEEEEE;
+
+  @media (min-width: $tablet-width) {
+
+  }
 }
 
 .advantages-photo {
@@ -60,15 +85,37 @@
   padding-bottom: 23px;
 }
 
-.advantages__text{
+.advantages__text {
   padding: 23px 24px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {}
+
+  @media (min-width: $desktop-width) {}
 }
 
-.advantages__description{
+.advantages__description {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
 
+}
+
+.advantages__item--img {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 256px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 256px;
+  }
 }

@@ -1,4 +1,13 @@
-.social {
+.social__list{
   display: flex;
-  padding: 30px 82px;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-bottom: 30px;
+  list-style-type: none;
+
+}
+
+.social__link{
+  padding-right: 6px;
+  text-decoration: none;
 }

@@ -1,5 +1,13 @@
 .copyright {
-  padding-left: 95px;
+  display: flex;
+  justify-content: space-between;
   padding-right: 95px;
   padding-bottom: 33px;
+}
+
+.copyright__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
 }

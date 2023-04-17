@@ -1,3 +1,43 @@
-.photo{
-
+.photo__link {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
 }
+
+.photo-about {
+  padding: 15px 80px 11px 20px;
+  margin: 0;
+}
+
+.photo__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.photo__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+}
+
+.photo__statistics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 247px;
+  margin: 0;
+}
+
+.photo__badge {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
