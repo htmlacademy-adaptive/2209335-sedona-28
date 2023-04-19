@@ -30,10 +30,12 @@
 
   @media (min-width: $tablet-width) {
     width: 295px;
+
   }
 
   @media (min-width: $desktop-width) {
     width: 430px;
+
   }
 }
 
@@ -59,3 +61,6 @@
   }
 }
 
+.form__fields{
+  border: none;
+}
