@@ -1,4 +1,4 @@
-.advantages-about {
+.advantages__about {
   min-width: 284px;
   min-height: 157px;
   margin-left: 18px;
@@ -24,6 +24,7 @@
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .advantages__text--white {
@@ -38,10 +39,6 @@
 
 .advantages__item {
   list-style-type: none;
-
-  @media (min-width: $tablet-width) {}
-
-  @media (min-width: $desktop-width) {}
 }
 
 .advantages__list {
@@ -72,10 +69,6 @@
   min-height: 260px;
   text-align: center;
   background: #EEEEEE;
-
-  @media (min-width: $tablet-width) {
-
-  }
 }
 
 .advantages-photo {
@@ -88,10 +81,6 @@
 .advantages__text {
   padding: 23px 24px;
   text-transform: uppercase;
-
-  @media (min-width: $tablet-width) {}
-
-  @media (min-width: $desktop-width) {}
 }
 
 .advantages__description {

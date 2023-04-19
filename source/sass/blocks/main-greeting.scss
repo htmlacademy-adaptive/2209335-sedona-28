@@ -1,14 +1,15 @@
-.main-inner__greeting{
+.main-greeting{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url("../img/back-desktop.jpg");
+  background-image: url("../img/background-index.jpg");
   background-color: $background;
   background-size: cover;
   padding-left: 19px;
   padding-top: 90px;
   padding-right: 19px;
-  padding-bottom: 67px;
+  padding-bottom: 28px;
   background-repeat: no-repeat;
-  width: 320px;
+  min-width: 320px;
+
 }

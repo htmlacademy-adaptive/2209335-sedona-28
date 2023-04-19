@@ -1,12 +1,46 @@
 
-@media (min-width: $tablet-width) {
   .site-list {
+    @media (min-width: $tablet-width) {
     width: 768px;
+    }
+    @media (min-width: $desktop-width) {
+      width: 1200px;
+    }
   }
+
+.site-list__item {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    }
+
 }
 
-@media (min-width: $desktop-width) {
-  .site-list {
-    width: 1200px;
+.site-list a {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #81B3D2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(1, 1, 1, 0.2);
+
+  @media (min-width: $tablet-width) {
+    background-color: inherit;
+    color: #000000;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
   }
+
+
 }

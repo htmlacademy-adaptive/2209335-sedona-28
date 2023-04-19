@@ -15,10 +15,6 @@
 
 }
 
-.button {
-  @include button;
-}
-
 @mixin container {
   display: flex;
   flex-direction: column;

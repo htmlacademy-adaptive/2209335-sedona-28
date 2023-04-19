@@ -37,9 +37,11 @@
 .services__title {
   padding-left: 47px;
   text-transform: uppercase;
+
   @media (min-width: $tablet-width) {
    padding: 0;
   }
+
   @media (min-width: $desktop-width) {
     padding: 0;
   }
@@ -51,9 +53,11 @@
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
+
   @media (min-width: $tablet-width) {
     padding: 0;
    }
+
   @media (min-width: $desktop-width) {
     padding: 0;
   }

@@ -3,8 +3,9 @@
   padding: 38px 29px 32px 29px;
   text-align: center;
   margin: 0;
+
   @media (min-width: $tablet-width) {
-   padding: 60px 166px 44px 166px;
+    padding: 60px 166px 44px 166px;
   }
 
   @media (min-width: $desktop-width) {
@@ -23,7 +24,6 @@
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-
 }
 
 .search__link {
@@ -40,14 +40,10 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: center;
-
-
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: center;
-
-
   }
 }

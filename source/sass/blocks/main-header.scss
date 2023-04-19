@@ -1,32 +1,16 @@
 .main-header {
   display: flex;
+  min-height: 56px;
+  position: relative;
+
 }
 
-.main-header__logo{
+.main-header__logo {
   height: 96px;
-}
+  position: absolute;
+  content: "";
+  width: 185px;
+  left: 50%;
+  transform: translateX(-50%);
 
-@media (min-width: $tablet-width) {
-  .main-header {
-    position: relative;
-  }
-  .main-header__logo{
-    position: absolute;
-    content: "";
-    left:307px;
-    right: 307px;
-
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .main-header {
-    position: relative;
-  }
-  .main-header__logo{
-    position: absolute;
-    content: "";
-    left: 480px;
-    right: 480px;
-  }
 }
