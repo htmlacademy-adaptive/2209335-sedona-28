@@ -1,13 +1,10 @@
-
-.form-list{
+.form-list {
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 60px;
     margin-right: 60px;
-
-
   }
 
   @media (min-width: $desktop-width) {
@@ -16,6 +13,5 @@
     flex-wrap: wrap;
     margin-left: 120px;
     margin-right: 120px;
-
   }
 }

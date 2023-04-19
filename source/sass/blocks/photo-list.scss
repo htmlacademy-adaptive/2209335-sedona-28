@@ -1,4 +1,4 @@
-.photo-list{
+.photo-list {
   list-style-type: none;
   padding: 0;
 
@@ -7,7 +7,6 @@
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
     gap: 0;
-
   }
 
   @media (min-width: $desktop-width) {
@@ -16,7 +15,6 @@
     list-style-type: none;
     gap: 0;
   }
-
 }
 
 .photo-list__element{

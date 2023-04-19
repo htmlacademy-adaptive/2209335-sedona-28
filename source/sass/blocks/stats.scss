@@ -19,8 +19,6 @@
 
   @media (min-width: $tablet-width) {
     width: 648px;
-
-
   }
 
   @media (min-width: $desktop-width) {
@@ -30,6 +28,7 @@
 
 .stats {
   padding-bottom: 22px;
+
   @media (min-width: $tablet-width) {
     padding-left: 60px;
     padding-right: 60px;
@@ -40,7 +39,6 @@
     padding-left: 120px;
     padding-right: 120px;
   }
-
 }
 
 .stats__button {
@@ -72,11 +70,9 @@
     text-transform: uppercase;
     text-align: right;
     padding-left: 132px;
-
   }
 
   @media (min-width: $desktop-width) {
-   padding-left: 157px;
+    padding-left: 157px;
   }
-
 }

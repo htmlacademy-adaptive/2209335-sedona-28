@@ -1,4 +1,3 @@
-
 .form-content__legend {
   font-weight: 700;
   font-size: 18px;
@@ -9,6 +8,7 @@
 
 .form-content__fields {
   border: none;
+
   @media (min-width: $tablet-width) {
     padding-left: 60px;
     padding-right: 60px;

@@ -30,16 +30,14 @@
 
   @media (min-width: $tablet-width) {
     width: 295px;
-
   }
 
   @media (min-width: $desktop-width) {
     width: 430px;
-
   }
 }
 
-.form__wrapper{
+.form__wrapper {
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
@@ -61,6 +59,6 @@
   }
 }
 
-.form__fields{
+.form__fields {
   border: none;
 }
