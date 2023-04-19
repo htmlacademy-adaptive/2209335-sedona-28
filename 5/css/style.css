@@ -338,6 +338,10 @@ body {
   }
 }
 
+.form__fields {
+  border: none;
+}
+
 @media (min-width: 768px) {
   .main-footer {
     display: flex;
