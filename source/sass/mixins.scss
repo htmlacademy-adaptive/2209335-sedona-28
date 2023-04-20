@@ -1,0 +1,32 @@
+@mixin button {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@mixin container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 100%;
+
+  @media (min-width: $tablet-width) {
+    min-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}

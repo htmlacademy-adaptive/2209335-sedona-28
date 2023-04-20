@@ -1,0 +1,23 @@
+.photo-list {
+  list-style-type: none;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    gap: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    gap: 0;
+  }
+}
+
+.photo-list__element {
+  padding: 24px 20px 25px 20px;
+  margin: 0;
+}
