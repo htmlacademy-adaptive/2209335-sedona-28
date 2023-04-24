@@ -329,7 +329,8 @@ body {
     margin-right: 120px;
   }
 }
-.form-list .form-list__element {
+
+.form-list__element {
   margin-top: 26px;
 }
 
@@ -540,6 +541,7 @@ body {
   cursor: pointer;
   border: none;
   padding: 0;
+  background: none;
 }
 @media (min-width: 768px) {
   .main-nav__toggle {
@@ -553,10 +555,6 @@ body {
   z-index: 4;
 }
 
-.main-nav__toggle {
-  background: none;
-}
-
 .main-nav__toggle span {
   width: 30px;
   height: 3px;
@@ -564,7 +562,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #81B3D2;
+  background-color: #81b3d2;
   transition: all 0.5s;
 }
 
@@ -595,8 +593,8 @@ body {
 }
 
 .main-nav--closed .main-nav__toggle:active::before {
-  background-color: fade(#81B3D2, 30%);
-  box-shadow: 0 5px 0 0 fade(#81B3D2, 30%), 0 14px 0 0 fade(#81B3D2, 30%);
+  background-color: fade(#81b3d2, 30%);
+  box-shadow: 0 5px 0 0 fade(#81b3d2, 30%), 0 14px 0 0 fade(#81b3d2, 30%);
 }
 
 .main-nav--opened .main-nav__toggle {
