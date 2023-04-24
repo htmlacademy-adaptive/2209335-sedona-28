@@ -1,7 +1,4 @@
 .site-list {
-  padding-top: 17px;
-  padding-bottom: 13px;
-  text-align: center;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -19,19 +16,15 @@
   text-decoration: none;
   list-style-type: none;
   color: inherit;
-  margin: 0;
 
   @media (min-width: $tablet-width) {
     padding-top: 18px;
     padding-bottom: 17px;
-    text-align: center;
-
-
   }
 }
 
 .site-list__item a[href] {
-  @media (min-width: @tablet-width) {
+  @media (min-width: $tablet-width) {
     &:hover {
       color: #766357;
 
@@ -40,7 +33,6 @@
 
     &:active {
       color: #766357;
-
       background-color: #ffffff;
       opacity: 0.3;
     }

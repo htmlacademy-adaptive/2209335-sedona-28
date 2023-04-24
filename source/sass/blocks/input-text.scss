@@ -1,0 +1,25 @@
+.input-text__label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.input-text__input {
+  width: 280px;
+  height: 58px;
+  background: #f2f2f2;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 16px;
+
+  @media (min-width: $tablet-width) {
+    width: 295px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 430px;
+  }
+}

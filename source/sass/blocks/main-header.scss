@@ -1,7 +1,7 @@
 .main-header {
+  display: flex;
   min-height: 56px;
   position: relative;
-  display: inline;
 }
 
 .main-header__logo {
@@ -11,4 +11,5 @@
   width: 185px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 3;
 }
