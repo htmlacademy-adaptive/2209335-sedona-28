@@ -1,9 +1,7 @@
 .site-list {
   @media (min-width: $tablet-width) {
     width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+
   }
 
   @media (min-width: $desktop-width) {

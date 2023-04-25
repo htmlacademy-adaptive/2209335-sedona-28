@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-@mixin container {
+@mixin container{
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
