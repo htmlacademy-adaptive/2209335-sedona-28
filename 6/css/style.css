@@ -511,10 +511,8 @@ body {
 .main-header__toggle {
   width: 23px;
   height: 22px;
-  left: 86.88%;
-  right: 6.19%;
-  top: 2.55%;
-  bottom: 94.11%;
+  right: 20px;
+  top: 15px;
   padding: 0;
   border: none;
   display: block;
@@ -636,6 +634,10 @@ body {
 .main-nav--closed .main-header__toggle:active::before {
   background-color: fade(#81B3D2, 30%);
   box-shadow: 0 5px 0 0 fade(#81B3D2, 30%), 0 14px 0 0 fade(#81B3D2, 30%);
+}
+
+.main-nav--closed .main-nav__list {
+  display: none;
 }
 
 .map {
