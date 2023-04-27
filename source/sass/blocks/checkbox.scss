@@ -32,7 +32,7 @@
   top: -10px;
 }
 
-.checkbox__input[type="checkbox"]:checked + .checkbox__label::after {
+.checkbox__input:checked + .checkbox__label::after {
   position: absolute;
   width: 16px;
   height: 16px;

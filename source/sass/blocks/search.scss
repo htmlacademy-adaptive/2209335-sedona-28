@@ -40,18 +40,8 @@
   margin-right: 18px;
   text-align: center;
 
-
   @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: center;
-    margin-left: 155px;
-    margin-right: 155px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: center;
-    margin-left: 371px;
-    margin-right: 371px;
+    width: 458px;
+    margin: 0 auto;
   }
 }

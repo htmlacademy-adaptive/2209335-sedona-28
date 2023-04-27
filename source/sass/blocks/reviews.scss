@@ -21,18 +21,15 @@
   padding-right: 20px;
   padding-bottom: 28px;
   margin: 0;
-}
 
-.reviews__wrapper {
+  br {
+    display: none;
+  }
+
   @media (min-width: $tablet-width) {
-    padding-left: 166px;
-    padding-right: 166px;
-    padding-top: 64px;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding-left: 382px;
-    padding-right: 382px;
-    padding-top: 115px;
+    br {
+      display: block;
+    }
   }
 }
+
