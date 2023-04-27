@@ -21,7 +21,10 @@
 img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -657,7 +660,11 @@ body {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 5;
+}
+
+.main-nav--opened + .main-header__logo {
+  display: none;
 }
 
 .main-header__toggle {
@@ -674,7 +681,7 @@ body {
   -webkit-user-select: none;
           user-select: none;
   visibility: visible;
-  z-index: 4;
+  z-index: 8;
 }
 @media (min-width: 768px) {
   .main-header__toggle {
@@ -751,27 +758,27 @@ body {
 }
 
 .main-nav {
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 4;
 }
 
-.main-nav--opened + .main-header__toggle span,
-.main-nav--opened + .main-header__toggle span::before,
-.main-nav--opened + .main-header__toggle span::after {
+.main-nav--opened + .burger,
+.main-nav--opened + .burger::before,
+.main-nav--opened + .burger::after {
   background: #ffffff;
 }
 
-.main-nav--opened + .main-header__toggle span {
+.main-nav--opened + .burger {
   background: transparent;
 }
 
-.main-nav--opened + .main-header__toggle span::before {
+.main-nav--opened + .burger::before {
   top: 50%;
   transform: rotate(45deg);
 }
 
-.main-nav--opened + .main-header__toggle span::after {
+.main-nav--opened + .burger::after {
   top: 50%;
   transform: rotate(-45deg);
 }
@@ -822,9 +829,12 @@ body {
 @media (min-width: 768px) {
   .photo-list__element {
     padding: 0;
+    width: 50%;
   }
-  .photo-list__element .photo-list__element:first-child {
-    width: 648px;
+}
+@media (min-width: 1200px) {
+  .photo-list__element {
+    width: 33.3333333333%;
   }
 }
 
@@ -838,7 +848,7 @@ body {
 }
 @media (min-width: 1200px) {
   .photo-list__element--big {
-    width: 1200px;
+    width: 100%;
   }
 }
 
@@ -883,13 +893,11 @@ body {
   line-height: 21px;
 }
 
-.photo__content,
-.photo__content--gray {
+.photo__content {
   padding: 0;
 }
 @media (min-width: 768px) {
-  .photo__content,
-.photo__content--gray {
+  .photo__content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -899,8 +907,7 @@ body {
     padding-right: 20px;
     padding-top: 22px;
   }
-  .photo__content .photo__content--gray,
-.photo__content--gray .photo__content--gray {
+  .photo__content .photo__content--gray {
     background: #eaeaea;
   }
 }
