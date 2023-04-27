@@ -1,7 +1,6 @@
 .site-list {
   @media (min-width: $tablet-width) {
     width: 768px;
-
   }
 
   @media (min-width: $desktop-width) {
@@ -13,11 +12,6 @@
   text-decoration: none;
   list-style-type: none;
   color: inherit;
-
-  @media (min-width: $tablet-width) {
-    padding-top: 18px;
-    padding-bottom: 17px;
-  }
 }
 
 .site-list__item a[href] {
@@ -42,6 +36,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
+  padding-top: 17px;
+  padding-bottom: 12px;
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;

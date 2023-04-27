@@ -6,11 +6,15 @@
 
   @media (min-width: $tablet-width) {
     text-align: center;
+    min-height: 331px;
+    width: 256px;
+    padding: 60px 33px;
   }
 
   @media (min-width: $desktop-width) {
+    width: 400px;
     text-align: center;
-    margin: 69px 50px 69px 50px;
+    padding: 69px 50px;
   }
 }
 
@@ -19,13 +23,6 @@
   background-color: #ffffff;
 
   @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 256px;
-  }
-
-  @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -40,10 +37,6 @@
   @media (min-width: $tablet-width) {
     padding: 0;
   }
-
-  @media (min-width: $desktop-width) {
-    padding: 0;
-  }
 }
 
 .services__description {
@@ -56,8 +49,12 @@
   @media (min-width: $tablet-width) {
     padding: 0;
   }
+}
 
-  @media (min-width: $desktop-width) {
-    padding: 0;
+.services {
+  background: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
   }
 }

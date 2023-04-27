@@ -1,12 +1,18 @@
-.checkbox {
-  text-decoration: none;
-  list-style: none;
-}
 
-.checkbox__cont {
+.checkbox {
   position: relative;
   display: block;
   padding-left: 16px;
+  text-decoration: none;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 49px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 64px;
+  }
 }
 
 .checkbox__label {

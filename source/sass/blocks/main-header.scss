@@ -31,11 +31,10 @@
   @media (min-width: $tablet-width) {
     display: none;
   }
-
 }
 
 .main-header__toggle span {
-  background: #81B3D2;
+  background: #81b3d2;
   display: block;
   height: 2px;
   width: 18px;
@@ -55,7 +54,7 @@
 
 .main-header__toggle span::before,
 .main-header__toggle span::after {
-  background: #81B3D2;
+  background: #81b3d2;
   display: block;
   width: 100%;
   height: 100%;

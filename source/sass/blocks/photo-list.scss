@@ -1,21 +1,19 @@
 .photo-list {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    padding-left: 60px;
-    padding-right: 60px;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0;
   }
 }
 
@@ -25,5 +23,21 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
+
+    .photo-list__element:first-child {
+      width: 648px;
+    }
+  }
+}
+
+.photo-list__element--big {
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
   }
 }
