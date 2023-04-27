@@ -8,8 +8,11 @@
 img {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  text-decoration: none;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none
 }
 
 .visually-hidden {

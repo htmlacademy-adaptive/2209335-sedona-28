@@ -10,7 +10,11 @@
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 5;
+}
+
+.main-nav--opened + .main-header__logo{
+  display: none;
 }
 
 .main-header__toggle {
@@ -26,7 +30,7 @@
   position: absolute;
   user-select: none;
   visibility: visible;
-  z-index: 4;
+  z-index: 8;
 
   @media (min-width: $tablet-width) {
     display: none;

@@ -22,27 +22,26 @@
 }
 
 .main-nav {
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 4;
 }
 
-.main-nav--opened + .main-header__toggle span,
-.main-nav--opened + .main-header__toggle span::before,
-.main-nav--opened + .main-header__toggle span::after {
+.main-nav--opened + .burger,
+.main-nav--opened + .burger::before,
+.main-nav--opened + .burger::after {
   background: #ffffff;
 }
-
-.main-nav--opened + .main-header__toggle span {
+.main-nav--opened + .burger {
   background: transparent;
 }
 
-.main-nav--opened + .main-header__toggle span::before {
+.main-nav--opened + .burger::before {
   top: 50%;
   transform: rotate(45deg);
 }
 
-.main-nav--opened + .main-header__toggle span::after {
+.main-nav--opened + .burger::after {
   top: 50%;
   transform: rotate(-45deg);
 }

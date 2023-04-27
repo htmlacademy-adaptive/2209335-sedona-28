@@ -23,10 +23,11 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
+    width: calc(100%/2);
+  }
 
-    .photo-list__element:first-child {
-      width: 648px;
-    }
+  @media (min-width: $desktop-width) {
+    width: calc(100%/3);
   }
 }
 
@@ -38,6 +39,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1200px;
+    width: 100%;
   }
 }
