@@ -27,21 +27,21 @@
   z-index: 1;
 }
 
-.main-nav--opened + .main-header__toggle + .burger,
-.main-nav--opened + .main-header__toggle + .burger::before,
-.main-nav--opened + .main-header__toggle + .burger::after {
+.main-nav--opened .burger,
+.main-nav--opened .burger::before,
+.main-nav--opened .burger::after {
   background: #ffffff;
 }
-.main-nav--opened + .main-header__toggle + .burger {
+.main-nav--opened .burger {
   background: transparent;
 }
 
-.main-nav--opened + .main-header__toggle + .burger::before {
+.main-nav--opened .burger::before {
   top: 50%;
   transform: rotate(45deg);
 }
 
-.main-nav--opened + .main-header__toggle + .burger::after {
+.main-nav--opened .burger::after {
   top: 50%;
   transform: rotate(-45deg);
 }

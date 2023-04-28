@@ -30,14 +30,14 @@
   position: absolute;
   user-select: none;
   visibility: visible;
-  z-index: 8;
+  z-index: 5;
 
   @media (min-width: $tablet-width) {
     display: none;
   }
 }
 
-.main-header__toggle span {
+.main-header__toggle .burger {
   background: #81b3d2;
   display: block;
   height: 2px;
@@ -48,16 +48,16 @@
   top: 50%;
 }
 
-.main-header__toggle span::before {
+.main-header__toggle .burger::before {
   top: calc(50% - 6px);
 }
 
-.main-header__toggle span::after {
+.main-header__toggle .burger::after {
   top: calc(50% + 4px);
 }
 
-.main-header__toggle span::before,
-.main-header__toggle span::after {
+.main-header__toggle .burger::before,
+.main-header__toggle .burger::after {
   background: #81b3d2;
   display: block;
   width: 100%;
