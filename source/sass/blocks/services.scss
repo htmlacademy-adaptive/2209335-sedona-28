@@ -61,20 +61,32 @@
   }
 }
 
-.services__item--home{
+.services__item--home {
   background-image: url("../img/servises/iconhouse.svg");
   background-repeat: no-repeat;
   background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {
+    background-position: center 30px;
+  }
 }
 
-.services__item--eat{
+.services__item--eat {
   background-image: url("../img/servises/iconburger.svg");
   background-repeat: no-repeat;
   background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {
+    background-position: center 30px;
+  }
+
 }
 
-.services__item--present{
+.services__item--present {
   background-image: url("../img/servises/iconpresent.svg");
   background-repeat: no-repeat;
   background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {}
+  background-position: center 30px;
 }
