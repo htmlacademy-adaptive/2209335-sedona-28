@@ -1,9 +1,11 @@
 .stats__title {
+  display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .stats__textarea {
@@ -16,6 +18,8 @@
   line-height: 26px;
   border: none;
   background: $grey;
+  padding: 16px;
+  text-align: left;
 
   @media (min-width: $tablet-width) {
     width: 648px;
@@ -42,6 +46,7 @@
 }
 
 .stats__button {
+  display: block;
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
@@ -50,18 +55,20 @@
   background-color: #81b3d2;
   color: #ffffff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
 }
 
 .stats__legend {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
   color: rgba(51, 51, 51, 0.6);
   padding-left: 163px;
   padding-right: 20px;
+  text-align: right;
 
   @media (min-width: $tablet-width) {
     font-weight: 400;

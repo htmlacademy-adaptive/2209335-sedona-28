@@ -1,8 +1,7 @@
 .copyright {
   display: flex;
-  justify-content: space-between;
-  padding-right: 95px;
-  padding-bottom: 33px;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright__text {
@@ -10,4 +9,5 @@
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
+  padding-right: 12px;
 }

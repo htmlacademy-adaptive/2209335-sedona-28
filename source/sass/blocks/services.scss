@@ -6,11 +6,15 @@
 
   @media (min-width: $tablet-width) {
     text-align: center;
+    min-height: 331px;
+    width: 256px;
+    padding: 60px 33px;
   }
 
   @media (min-width: $desktop-width) {
+    width: 400px;
     text-align: center;
-    margin: 69px 50px 69px 50px;
+    padding: 69px 50px;
   }
 }
 
@@ -24,40 +28,65 @@
     width: 100%;
     min-height: 256px;
   }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 256px;
-  }
 }
 
 .services__title {
-  padding-left: 47px;
+  padding-left: 65px;
   text-transform: uppercase;
+  padding-top: 8px;
 
   @media (min-width: $tablet-width) {
-    padding: 0;
-  }
-
-  @media (min-width: $desktop-width) {
     padding: 0;
   }
 }
 
 .services__description {
-  padding-left: 47px;
+  padding-left: 65px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
 
+
   @media (min-width: $tablet-width) {
     padding: 0;
   }
+}
 
-  @media (min-width: $desktop-width) {
-    padding: 0;
+.services {
+  background: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
+
+.services__item--home {
+  background-image: url("../img/servises/iconhouse.svg");
+  background-repeat: no-repeat;
+  background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {
+    background-position: center 30px;
+  }
+}
+
+.services__item--eat {
+  background-image: url("../img/servises/iconburger.svg");
+  background-repeat: no-repeat;
+  background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {
+    background-position: center 30px;
+  }
+}
+
+.services__item--present {
+  background-image: url("../img/servises/iconpresent.svg");
+  background-repeat: no-repeat;
+  background-position: left 18px top;
+
+  @media (min-width: $tablet-width) {
+    background-position: center 30px;
   }
 }

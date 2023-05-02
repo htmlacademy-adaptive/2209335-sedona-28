@@ -1,12 +1,12 @@
 .social__list {
   display: flex;
-  padding-left: 82px;
-  padding-right: 82px;
-  padding-bottom: 30px;
   list-style-type: none;
+  padding: 0;
 }
 
 .social__link {
-  padding-right: 6px;
+  padding: 12px;
   text-decoration: none;
+  background-color: #81b3d2;
+  margin-right: 6px;
 }

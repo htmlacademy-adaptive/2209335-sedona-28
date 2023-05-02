@@ -3,6 +3,23 @@
   padding-right: 26px;
   padding-bottom: 38px;
   text-align: center;
+
+  br {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 58px;
+    padding-top: 58px;
+
+    br {
+      display: block;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 62px;
+  }
 }
 
 .video__title {
