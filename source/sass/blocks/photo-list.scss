@@ -24,11 +24,11 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    width: calc(100%/2);
+    width: calc(100% / 2);
   }
 
   @media (min-width: $desktop-width) {
-    width: calc(100%/3);
+    width: calc(100% / 3);
   }
 }
 

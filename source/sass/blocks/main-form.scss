@@ -15,19 +15,19 @@
 }
 
 
-.main-form__greeting::after{
+.main-form__greeting::after {
   position: absolute;
   content: "";
   background-image: url("../img/minitriangle.svg");
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: auto;
   left: 0;
   right: 0;
   bottom: 0;
   height: 57px;
 
   @media (min-width: $tablet-width) {
-   background-image: url("../img/triangle.svg");
+    background-image: url("../img/triangle.svg");
   }
 
   @media (min-width: $desktop-width) {

@@ -79,7 +79,6 @@
   @media (min-width: $tablet-width) {
     background-position: center 30px;
   }
-
 }
 
 .services__item--present {
@@ -88,6 +87,6 @@
   background-position: left 18px top;
 
   @media (min-width: $tablet-width) {
-  background-position: center 30px;
+    background-position: center 30px;
   }
 }
