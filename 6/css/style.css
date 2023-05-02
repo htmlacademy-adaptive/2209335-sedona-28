@@ -1267,19 +1267,29 @@ body {
   background-repeat: no-repeat;
   background-position: left 18px top;
 }
+@media (min-width: 768px) {
+  .services__item--home {
+    background-position: center 30px;
+  }
+}
 
 .services__item--eat {
   background-image: url("../img/servises/iconburger.svg");
   background-repeat: no-repeat;
   background-position: left 18px top;
 }
+@media (min-width: 768px) {
+  .services__item--eat {
+    background-position: center 30px;
+  }
+}
 
 .services__item--present {
   background-image: url("../img/servises/iconpresent.svg");
   background-repeat: no-repeat;
   background-position: left 18px top;
+  background-position: center 30px;
 }
-
 @media (min-width: 768px) {
   .site-list {
     width: 768px;
