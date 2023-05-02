@@ -37,7 +37,7 @@
   }
 }
 
-.main-header__toggle .burger {
+.main-header__toggle .main-header__burger {
   background: #81b3d2;
   display: block;
   height: 2px;
@@ -48,16 +48,16 @@
   top: 50%;
 }
 
-.main-header__toggle .burger::before {
+.main-header__toggle .main-header__burger::before {
   top: calc(50% - 6px);
 }
 
-.main-header__toggle .burger::after {
+.main-header__toggle .main-header__burger::after {
   top: calc(50% + 4px);
 }
 
-.main-header__toggle .burger::before,
-.main-header__toggle .burger::after {
+.main-header__toggle .main-header__burger::before,
+.main-header__toggle .main-header__burger::after {
   background: #81b3d2;
   display: block;
   width: 100%;
