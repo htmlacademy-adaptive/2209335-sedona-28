@@ -83,3 +83,13 @@
 .photo__content--gray {
   background: #eaeaea;
 }
+
+.photo__link img{
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
+}

@@ -196,3 +196,9 @@
   }
 }
 
+.advantages__photo img{
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    height: 100%;
+  }
+}
