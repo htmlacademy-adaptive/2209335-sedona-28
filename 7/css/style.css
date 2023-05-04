@@ -734,6 +734,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .main-form__greeting img {
+    width: 100%;
+  }
+}
+
 .main-greeting {
   display: flex;
   justify-content: center;
@@ -792,12 +798,17 @@ body {
   }
 }
 
-/*
-.main-greeting img {
-  object-fit: cover;
-  height: 100%;
-  width: 320px;
-}*/
+@media (min-width: 768px) {
+  .main-greeting img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .main-greeting img {
+    width: 100%;
+  }
+}
+
 .main-header {
   display: flex;
   min-height: 56px;
@@ -923,6 +934,12 @@ body {
 @media (min-width: 1200px) {
   .main-inner__greeting::after {
     background-image: url("../img/maxtriangle.svg");
+  }
+}
+
+@media (min-width: 768px) {
+  .main-inner__greeting img {
+    width: 100%;
   }
 }
 

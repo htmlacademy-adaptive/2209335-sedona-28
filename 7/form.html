@@ -47,7 +47,11 @@
     <main class="main-form">
       <section class="main-form__greeting">
         <h1 class="visually-hidden">Добро пожаловать в великолепную седону</h1>
-        <img src="img/sedona.svg" width="229" height="39" alt="Горы Седоны.">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/sedona-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/sedona-tablet.svg">
+          <img src="img/sedona.svg" width="229" height="39" alt="Горы Седоны.">
+        </picture>
       </section>
       <section class="reviews">
         <div class="reviews__wrapper">
