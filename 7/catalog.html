@@ -58,7 +58,12 @@
         <ul class="photo-list">
           <li class="photo-list__element photo-list__element--big photo">
             <a class="photo__link" href="photo.html">
-              <img src="img/photo/road.jpg" width="280" height="280" alt="Дорога идущая вдаль на закате.">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo/road-desktop.jpg, img/photo/road-desktop@2x">
+                <source media="(min-width: 768px)" srcset="img/photo/road-tablet.jpg, img/photo/road-tablet@2x">
+                <img src="img/photo/road.jpg" width="280" height="280" srcset="img/photo/road@2x.jpg"
+                  alt="Дорога идущая вдаль на закате.">
+              </picture>
             </a>
             <div class="photo__content">
               <div class="photo__about">
@@ -82,7 +87,11 @@
           </li>
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
-              <img src="img/photo/herb.jpg" width="280" height="280" alt="Растение.">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo/herb-desktop.jpg, img/photo/herb-desktop@2x">
+                <source media="(min-width: 768px)" srcset="img/photo/herb-tablet.jpg, img/photo/herb-tablet@2x">
+                <img src="img/photo/herb.jpg" width="280" height="280" srcset="img/photo/herb@2x.jpg" alt="Растение.">
+              </picture>
             </a>
             <div class="photo__content">
               <div class="photo-about">
@@ -106,7 +115,12 @@
           </li>
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
-              <img src="img/photo/chaff.jpg" width="280" height="280" alt="Дорога в горах.">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo/chaff-desktop.jpg, img/photo/chaff-desktop@2x">
+                <source media="(min-width: 768px)" srcset="img/photo/chaff-tablet.jpg, img/photo/chaff-tablet@2x">
+                <img src="img/photo/chaff.jpg" width="280" height="280" srcset="img/photo/chaff@2x.jpg"
+                  alt="Дорога в горах.">
+              </picture>
             </a>
             <div class="photo__content photo__content--gray">
               <div class="photo-about">
@@ -131,7 +145,11 @@
           </li>
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
-              <img src="img/photo/hill.jpg" width="280" height="280" alt="Каньон.">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo/hill-desktop.jpg, img/photo/hill-desktop@2x">
+                <source media="(min-width: 768px)" srcset="img/photo/hill-tablet.jpg, img/photo/hill-tablet@2x">
+                <img src="img/photo/hill.jpg" width="280" height="280" srcset="img/photo/hill@2x.jpg" alt="Каньон.">
+              </picture>
             </a>
             <div class="photo__content">
               <div class="photo-about">
@@ -164,7 +182,12 @@
           </div>
           <div class="video__card">
             <a class="video__presentation visually-hidden" href="#">Видеопрезентация Седоны</a>
-            <img class="video__presentation" src="img/video.jpg" width="280" height="177" alt="Дорога в горах.">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/video-desktop.jpg, img/video-desktop@2x">
+              <source media="(min-width: 768px)" srcset="img/video-tablet.jpg, img/video-tablet@2x">
+              <img class="video__presentation" src="img/video.jpg" width="280" height="177"
+                srcset="img/video@2x.jpg" alt="Дорога в горах.">
+            </picture>
           </div>
         </div>
       </section>

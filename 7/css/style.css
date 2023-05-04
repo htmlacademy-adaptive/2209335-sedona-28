@@ -277,6 +277,13 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .advantages__photo img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .catalog__about {
   padding-left: 15px;
   padding-right: 15px;
@@ -433,6 +440,7 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 53px;
 }
 
 .fieldset__component {
@@ -880,7 +888,7 @@ body {
     background-color: #496c81;
     background-image: url("../img/background/inner-background.jpg");
     background-repeat: no-repeat;
-    height: 518px;
+    height: 290px;
   }
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 2dppx) {
@@ -1124,6 +1132,17 @@ body {
 
 .photo__content--gray {
   background: #eaeaea;
+}
+
+@media (min-width: 768px) {
+  .photo__link img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .photo__link img {
+    width: 100%;
+  }
 }
 
 .radio {
@@ -1467,5 +1486,16 @@ body {
 .video__card {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .video__presentation {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .video__presentation {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
