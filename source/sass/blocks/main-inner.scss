@@ -48,3 +48,9 @@
     background-image: url("../img/maxtriangle.svg");
   }
 }
+
+.main-inner__greeting img{
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+}

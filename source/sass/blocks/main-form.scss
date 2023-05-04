@@ -50,3 +50,9 @@
     background-image: url("../img/maxtriangle.svg");
   }
 }
+
+.main-form__greeting img{
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+}

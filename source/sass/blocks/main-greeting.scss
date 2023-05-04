@@ -50,9 +50,14 @@
   }
 }
 
-/*
+
 .main-greeting img {
-  object-fit: cover;
-  height: 100%;
-  width: 320px;
-}*/
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
+}
