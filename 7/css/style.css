@@ -280,7 +280,7 @@ body {
 @media (min-width: 768px) {
   .advantages__photo img {
     width: 100%;
-    height: 100%;
+    height: 256px;
   }
 }
 
@@ -332,7 +332,7 @@ body {
 .checkbox {
   position: relative;
   display: block;
-  padding-left: 16px;
+  padding-left: 27px;
   text-decoration: none;
   list-style: none;
 }
@@ -653,11 +653,31 @@ body {
 }
 
 .input-text__input--phone {
-  width: 238px;
+  width: 222px;
+}
+@media (min-width: 768px) {
+  .input-text__input--phone {
+    width: 238px;
+  }
+}
+@media (min-width: 1200px) {
+  .input-text__input--phone {
+    width: 430px;
+  }
 }
 
 .input-text__input--mail {
-  width: 240px;
+  width: 222px;
+}
+@media (min-width: 768px) {
+  .input-text__input--mail {
+    width: 240px;
+  }
+}
+@media (min-width: 1200px) {
+  .input-text__input--mail {
+    width: 430px;
+  }
 }
 
 .main-footer {
@@ -1085,7 +1105,6 @@ body {
 }
 
 .photo__about {
-  padding: 15px 80px 11px 20px;
   margin: 0;
 }
 
@@ -1096,6 +1115,14 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
+@media (min-width: 1200px) {
+  .photo__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+}
 
 .photo__description {
   font-weight: 400;
@@ -1103,6 +1130,11 @@ body {
   line-height: 21px;
   color: #333333;
   margin: 0;
+}
+@media (min-width: 1200px) {
+  .photo__description {
+    color: #ffffff;
+  }
 }
 
 .photo__statistics {
@@ -1128,10 +1160,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     height: 80px;
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 22px;
+    padding-bottom: 15px;
   }
 }
 @media (min-width: 1200px) {
@@ -1146,9 +1179,22 @@ body {
 .photo__snap {
   padding-right: 14px;
 }
+@media (min-width: 1200px) {
+  .photo__snap {
+    background-image: url("../img/likeicon-white.svg");
+    background-repeat: no-repeat;
+  }
+}
 
-.photo__content--gray {
-  background: #eaeaea;
+@media (min-width: 768px) {
+  .photo__content--gray {
+    background: #eaeaea;
+  }
+}
+@media (min-width: 1200px) {
+  .photo__content--gray {
+    background: none;
+  }
 }
 
 @media (min-width: 768px) {
