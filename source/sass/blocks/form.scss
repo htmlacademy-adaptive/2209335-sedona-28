@@ -13,6 +13,13 @@
 .form__fieldset {
   border: none;
   margin-bottom: 49px;
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 39px;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 56px;
@@ -44,6 +51,7 @@
 .form__fields {
   border: none;
   padding: 0;
+  position: relative;
 }
 
 .form__controls {
@@ -103,4 +111,74 @@
   @media (min-width: $desktop-width) {
     margin-right: 90px;
   }
+}
+
+.form__fieldset:nth-child(n+2)::before {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    width: 123px;
+    height: 1px;
+    left: 60px;
+    top: -15px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 280px;
+    left: 120px;
+  }
+}
+
+.form__fieldset:nth-child(n+2)::after {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    width: 123px;
+    height: 1px;
+    right: 60px;
+    top: -15px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 280px;
+    right: 120px;
+  }
+}
+
+.form__fields::before {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    width: 123px;
+    height: 1px;
+    left: 60px;
+    top: -15px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 280px;
+    left: 120px;
+  }
+}
+
+
+.form__fields::after {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    background: #DBDBDB;
+    width: 123px;
+    height: 1px;
+    right: 60px;
+    top: -15px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 280px;
+    right: 120px;
+  }
+}
+
+.form__fieldset:first-child {
+  border-right: 1px solid #DBDBDB;
+  height: 339px;
 }
