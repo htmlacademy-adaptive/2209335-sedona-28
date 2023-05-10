@@ -122,11 +122,26 @@
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  br {
+    display: none;
+  }
 
   @media (min-width: $tablet-width) {
     br {
+      display: block;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    br {
       display: none;
     }
+
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -208,5 +223,5 @@
   height: 1px;
   background: #D6D6D6;
   position: absolute;
-  left:18px;
+  left: 18px;
 }
