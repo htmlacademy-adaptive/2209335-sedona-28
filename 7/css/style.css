@@ -469,12 +469,6 @@ body {
     text-align: center;
   }
 }
-@media (min-width: 1200px) {
-  .fieldset__legend {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-}
 
 .fieldset__component {
   display: flex;
@@ -506,9 +500,17 @@ body {
   }
 }
 
-.fieldset__legend--line {
-  margin-left: 60px;
-  margin-right: 45px;
+@media (min-width: 768px) {
+  .fieldset__legend--line {
+    margin-left: 60px;
+    margin-right: 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .fieldset__legend--line {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
 
 .form-content__legend {
