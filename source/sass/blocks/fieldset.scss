@@ -6,9 +6,8 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-  position: relative;
-  margin-left: 60px;
-  margin-right: 45px;
+    position: relative;
+    text-align: center;
   }
 
   @media (min-width: $desktop-width) {
@@ -47,4 +46,9 @@
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+.fieldset__legend--line {
+  margin-left: 60px;
+  margin-right: 45px;
 }

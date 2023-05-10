@@ -42,8 +42,8 @@
   text-transform: uppercase;
   text-decoration: none;
   background-color: #81b3d2;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  border-top: 1px solid rgba(1, 1, 1, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
 
   @media (min-width: $tablet-width) {
     background-color: inherit;
