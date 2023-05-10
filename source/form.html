@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body class="page__body">
@@ -46,7 +47,11 @@
     <main class="main-form">
       <section class="main-form__greeting">
         <h1 class="visually-hidden">Добро пожаловать в великолепную седону</h1>
-        <img src="img/sedona.svg" width="229" height="39" alt="Горы Седоны.">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/sedona-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/sedona-tablet.svg">
+          <img src="img/sedona.svg" width="229" height="39" alt="Горы Седоны.">
+        </picture>
       </section>
       <section class="reviews">
         <div class="reviews__wrapper">
@@ -97,9 +102,10 @@
 
         </div>
 
-
         <fieldset class="form__fieldset fieldset">
-          <legend class="fieldset__legend">Ваше общее впечатление:</legend>
+          <h2 class="fieldset__legend  fieldset__legend--line ">
+            <span class="fieldset__title">Ваше общее впечатление:</span>
+          </h2>
           <ul class="fieldset__component form-list">
             <li class="form-list__element">
               <label class="radio">
@@ -127,7 +133,9 @@
           </ul>
         </fieldset>
         <fieldset class="form__fieldset fieldset">
-          <legend class="fieldset__legend">посещенные достопримечательности:</legend>
+          <h2 class="fieldset__legend  fieldset__legend--line ">
+            <span class="fieldset__title">посещенные<br>достопримечательности:</span>
+          </h2>
           <ul class="fieldset__component form-list">
             <li class="form-list__element">
 
@@ -169,7 +177,9 @@
         </fieldset>
 
         <fieldset class="form__fields fieldset">
-          <legend class="fieldset__legend">Опишите свои эмоции:</legend>
+          <h2 class="fieldset__legend  fieldset__legend--line ">
+            <span class="fieldset__title">Опишите свои эмоции:</span>
+          </h2>
           <label class="feedback visually-hidden">Опишите свои эмоции</label>
           <textarea class="feedback__textarea" id="decription-emotions"
             placeholder="Опишите подробно все свои восторги"></textarea>
@@ -238,6 +248,7 @@
         </a>
       </div>
     </footer>
+
   </div>
   <script src="js/script.js"></script>
 </body>

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body class="page__body">
@@ -45,7 +46,11 @@
     <main class="main-index">
       <section class="main-greeting">
         <h1 class="visually-hidden">Добро пожаловать в великолепную седону</h1>
-        <img src="img/wellcome.svg" width="282" height="214" alt="Welcome to the gorgeous Sedona.">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/desktopwellcome.svg">
+          <source media="(min-width: 768px)" srcset="img/tabletwellcome.svg">
+          <img src="img/wellcome.svg" width="282" height="214" alt="Welcome to the gorgeous Sedona.">
+        </picture>
       </section>
 
       <section class="advantages">
@@ -60,10 +65,17 @@
               <p class="advantages__description">Седона не аттракцион для туристов, <br> там течёт своя жизнь</p>
             </div>
             <div class="advantages__photo">
-              <img src="img/advantages/city.jpg" width="320" height="260" alt="Здание на фоне красивого пейзажа.">
+              <picture>
+                <source media="(min-width: 1200px)"
+                  srcset="img/advantages/city-desktop.jpg, img/advantages/city-desktop@2x">
+                <source media="(min-width: 768px)"
+                  srcset="img/advantages/city-tablet.jpg, img/advantages/city-tablet@2x">
+                <img src="img/advantages/city.jpg" width="320" height="260" srcset="img/advantages/city@2x.jpg"
+                  alt="Здание на фоне красивого пейзажа.">
+              </picture>
             </div>
           </li>
-          <li class="advantages__item">
+          <li class=" advantages__item">
             <div class="services">
               <h2 class="visually-hidden">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
               <ul class="services__list">
@@ -86,28 +98,36 @@
           </li>
           <li class="advantages__item advantages__item--img">
             <div class="advantages__photo">
-              <img src="img/advantages/kanion.jpg" width="320" height="260" alt="Фото каньона.">
+              <picture>
+                <source media="(min-width: 1200px)"
+                  srcset="img/advantages/kanion-desktop.jpg, img/advantages/kanion-desktop@2x">
+                <source media="(min-width: 768px)"
+                  srcset="img/advantages/kanion-tablet.jpg, img/advantages/kanion-tablet@2x">
+                <img src="img/advantages/kanion.jpg" width="320" height="260" srcset="img/advantages/kanion@2x.jpg"
+                  alt="Фото каньона.">
+              </picture>
             </div>
             <div class="advantages__text">
               <h3 class="advantages__title">Там есть<br> мост дьявола</h3>
               <span class="advantages__number">- №2 -</span>
               <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь,конечно</p>
             </div>
-
           </li>
           <li class="advantages__item">
             <div class="advantages__text">
-              <h3 class="advantages__title">Небольшая площадь</h3>
+              <h3 class="advantages__title">Небольшая <br> площадь</h3>
               <span class="advantages__number">- №3 -</span>
               <p class="advantages__description">Все интересные места находятся очень близко</p>
             </div>
+
           </li>
           <li class="advantages__item">
             <div class="advantages__text">
               <h3 class="advantages__title">Красивая<br> дорога</h3>
               <span class="advantages__number">- №4 -</span>
-              <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              <p class="advantages__description">Ехать в Седону из Лас-<br>Вегаса совсем <br> не скучно!</p>
             </div>
+
           </li>
           <li class="advantages__item">
             <div class="advantages__text">
@@ -128,7 +148,11 @@
       <a class="search__link" href="hotel.html">Найти гостиницу</a>
       <section class="map">
         <h2 class="visually-hidden">Карта расположения Седоны</h2>
-        <img src="img/map-mobile.jpg" width="320" height="350" alt="Карта.">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/map/map-desktop.jpg, img/map/map-desktop@2x">
+          <source media="(min-width: 768px)" srcset="img/map/map-tablet.jpg, img/map/map-tablet@2x">
+          <img src="img/map/map-mobil.jpg" width="320" height="350" srcset="img/map/map-mobil@2x.jpg" alt="Карта.">
+        </picture>
       </section>
     </main>
     <footer class="main-footer">

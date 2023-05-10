@@ -36,9 +36,24 @@
 }
 
 .input-text__input--phone {
+  width: 222px;
+
+  @media (min-width: $tablet-width) {
   width: 238px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 430px;
+  }
+
 }
 
 .input-text__input--mail {
+  width: 222px;
+
+  @media (min-width: $tablet-width) {
   width: 240px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 430px;
+  }
 }

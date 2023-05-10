@@ -3,8 +3,8 @@
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  background-image: url("../img/background-index.jpg");
   background-color: $background;
+  background-image: url("../img/background/background-index.jpg");
   background-size: cover;
   padding-left: 19px;
   padding-top: 90px;
@@ -12,6 +12,22 @@
   padding-bottom: 28px;
   background-repeat: no-repeat;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    background-color: $background;
+    background-image: url("../img/background/big-background.jpg");
+    background-repeat: no-repeat;
+    height: 518px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/background/main-background@2x.jpg");
+      background-size: cover;
+    }
+  }
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/background/backmain-desktop.jpg");
+    background-size: cover;
+  }
 }
 
 .main-greeting::after {
@@ -34,9 +50,14 @@
   }
 }
 
-/*
+
 .main-greeting img {
-  object-fit: cover;
-  height: 100%;
-  width: 320px;
-}*/
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+  }
+}

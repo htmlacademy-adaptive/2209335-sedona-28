@@ -36,7 +36,8 @@
   padding-top: 8px;
 
   @media (min-width: $tablet-width) {
-    padding: 0;
+    padding-top: 30px;
+    padding-left: 0;
   }
 }
 
@@ -67,6 +68,7 @@
   background-position: left 18px top;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../img/servises/iconhouse-tablet.svg");
     background-position: center 30px;
   }
 }
@@ -77,6 +79,7 @@
   background-position: left 18px top;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../img/servises/iconburger-tablet.svg");
     background-position: center 30px;
   }
 }
@@ -87,6 +90,7 @@
   background-position: left 18px top;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../img/servises/iconpresent-tablet.svg");
     background-position: center 30px;
   }
 }

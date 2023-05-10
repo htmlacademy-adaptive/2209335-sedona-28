@@ -32,3 +32,10 @@
   }
 }
 
+.reviews__wrapper {
+  border-bottom: 1px solid #E5E5E5;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
+}
