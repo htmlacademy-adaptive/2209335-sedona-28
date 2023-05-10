@@ -466,8 +466,7 @@ body {
 @media (min-width: 768px) {
   .fieldset__legend {
     position: relative;
-    margin-left: 60px;
-    margin-right: 45px;
+    text-align: center;
   }
 }
 @media (min-width: 1200px) {
@@ -505,6 +504,11 @@ body {
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+.fieldset__legend--line {
+  margin-left: 60px;
+  margin-right: 45px;
 }
 
 .form-content__legend {
@@ -1654,8 +1658,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   background-color: #81b3d2;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  border-top: 1px solid rgba(1, 1, 1, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
 }
 @media (min-width: 768px) {
   .site-list a {
