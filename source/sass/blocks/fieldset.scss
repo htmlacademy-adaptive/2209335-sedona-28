@@ -10,10 +10,6 @@
     text-align: center;
   }
 
-  @media (min-width: $desktop-width) {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
 }
 
 .fieldset__component {
@@ -49,6 +45,12 @@
 }
 
 .fieldset__legend--line {
+  @media (min-width: $tablet-width) {
   margin-left: 60px;
   margin-right: 45px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
