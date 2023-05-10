@@ -149,10 +149,11 @@
       <a class="search__link" href="hotel.html">Найти гостиницу</a>
       <section class="map">
         <h2 class="visually-hidden">Карта расположения Седоны</h2>
-        <source media="(min-width: 1200px)"
-          srcset="img/map/map-desktop.jpg, img/map/map-desktop@2x">
-        <source media="(min-width: 768px)" srcset="img/map/map-tablet.jpg, img/map/map-tablet@2x">
-        <img src="img/map/map-mobil.jpg" width="320" height="350" srcset="img/map/map-mobil@2x.jpg" alt="Карта.">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/map/map-desktop.jpg, img/map/map-desktop@2x">
+          <source media="(min-width: 768px)" srcset="img/map/map-tablet.jpg, img/map/map-tablet@2x">
+          <img src="img/map/map-mobil.jpg" width="320" height="350" srcset="img/map/map-mobil@2x.jpg" alt="Карта.">
+        </picture>
       </section>
     </main>
     <footer class="main-footer">
