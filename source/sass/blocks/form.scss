@@ -12,19 +12,14 @@
 
 .form__fieldset {
   border: none;
-  margin-bottom: 49px;
   border-bottom: 1px solid #E5E5E5;
-  padding-bottom: 39px;
   position: relative;
-  padding-left: 28px;
+  margin-top: 47px;
 
   @media (min-width: $tablet-width) {
     border: none;
   }
 
-  @media (min-width: $desktop-width) {
-    margin-bottom: 56px;
-  }
 }
 
 .form__wrapper {
@@ -34,7 +29,7 @@
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 108px;
-    padding-bottom: 63px;
+    padding-bottom: 20px;
     margin: 0;
   }
 
@@ -51,8 +46,15 @@
 
 .form__fields {
   border: none;
-  padding: 0;
+  padding-top: 45px;
   position: relative;
+  padding-left: 0;
+
+  /*
+  @media (min-width: $tablet-width) {
+  margin-left: 60px;
+  margin-right: 60px;
+  }*/
 }
 
 .form__controls {
@@ -113,6 +115,7 @@
     margin-right: 90px;
   }
 }
+
 /*
 .form__fieldset:nth-child(n+2)::before {
   @media (min-width: $tablet-width) {
@@ -181,13 +184,12 @@
 
 .form__fieldset:first-child {
   @media (min-width: $tablet-width) {
-  border-right: 1px solid #DBDBDB;
-  height: 339px;
-  padding-right: 28px;
+    border-right: 1px solid #DBDBDB;
+    height: 339px;
+    padding-right: 28px;
   }
 
   @media (min-width: $desktop-width) {
     height: 340px;
   }
 }
-
