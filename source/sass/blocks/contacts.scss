@@ -1,8 +1,15 @@
 .contacts__link {
+  display: block;
   text-decoration: none;
   color: inherit;
-  margin: 0;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  margin: 0;
+  padding-bottom: 30px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
 }

@@ -1,7 +1,11 @@
 .social__list {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  width: 156px;
+
 }
 
 .social__link {
@@ -9,4 +13,5 @@
   text-decoration: none;
   background-color: #81b3d2;
   margin-right: 6px;
+
 }

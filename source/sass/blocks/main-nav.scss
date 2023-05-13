@@ -9,10 +9,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
     padding: 0;
   }
+
 }
 
 .main-nav__list::after {

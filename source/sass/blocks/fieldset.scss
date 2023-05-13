@@ -14,7 +14,6 @@
 
 .fieldset__component {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -46,11 +45,45 @@
 
 .fieldset__legend--line {
   @media (min-width: $tablet-width) {
-  margin-left: 60px;
-  margin-right: 45px;
+    margin-left: 60px;
+    margin-right: 45px;
   }
+
   @media (min-width: $desktop-width) {
     margin-left: 120px;
     margin-right: 120px;
+  }
+}
+
+.fieldset__component--radio {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-left: 96px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding-left: 173px;
+  }
+}
+
+.fieldset__component--checkbox {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 32px;
+    padding-left: 144px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 32px;
+    padding-left: 160px;
+
   }
 }
