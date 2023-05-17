@@ -1,4 +1,3 @@
-
 .feedback__textarea {
   width: 279px;
   min-height: 150px;
@@ -14,6 +13,20 @@
   text-align: left;
   resize: none;
   margin-top: 20px;
+
+  &:hover {
+    background-color: #d5d5d5;
+  }
+
+  &:active {
+    background: none;
+    border: 4px solid #E5E5E5;
+  }
+
+  &:disabled {
+    background: #e5e5e5;
+
+  }
 
   @media (min-width: $tablet-width) {
     width: 648px;

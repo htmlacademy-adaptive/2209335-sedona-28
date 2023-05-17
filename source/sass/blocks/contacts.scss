@@ -8,6 +8,20 @@
   margin: 0;
   padding-bottom: 30px;
 
+
+  &:hover {
+    color: #81b3d2;
+   }
+
+   &:active {
+     color: #000000;
+     opacity: 0.3;
+   }
+
+   &:current {
+    color: #766357;
+   }
+
   @media (min-width: $tablet-width) {
     padding: 0;
   }

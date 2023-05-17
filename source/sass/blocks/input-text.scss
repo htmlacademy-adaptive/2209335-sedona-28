@@ -17,6 +17,19 @@
   line-height: 26px;
   padding-left: 16px;
 
+  &:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+
+  }
+
+  &:active {
+    border: 4px solid #e5e5e5;
+    background: none;
+    color: #000000;
+    outline: none;
+  }
+
   @media (min-width: $tablet-width) {
     width: 295px;
   }
@@ -27,12 +40,28 @@
 }
 
 .input-text__container {
-  display: flex;
+  background: #e6e6e6;
+
+  &:active {
+    border: 1px solid #e5e5e5;
+    background: none;
+
+  }
 }
 
-.input-text__container img {
-  background: #e6e6e6;
-  padding: 20px;
+.input-text__container svg {
+  margin-right: 20px;
+  margin-left: 20px;
+  fill: #000000;
+
+  &:hover {
+    fill: #666666;
+
+  }
+
+  &:active {
+   fill: burlywood;
+  }
 }
 
 .input-text__input--phone {
@@ -40,10 +69,11 @@
   padding-right: 10px;
 
   @media (min-width: $tablet-width) {
-  width: 238px;
+    width: 210px;
   }
+
   @media (min-width: $desktop-width) {
-    width: 430px;
+    width: 380px;
   }
 
 }
@@ -52,9 +82,10 @@
   width: 222px;
 
   @media (min-width: $tablet-width) {
-  width: 240px;
+    width: 213px;
   }
+
   @media (min-width: $desktop-width) {
-    width: 430px;
+    width: 380px;
   }
 }

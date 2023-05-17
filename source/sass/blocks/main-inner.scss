@@ -16,7 +16,7 @@
     background-color: $background;
     background-image: url("../img/background/inner-background.jpg");
     background-repeat: no-repeat;
-    height: 290px;
+    min-height: 290px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background/inner-background@2x.jpg");
@@ -49,8 +49,11 @@
   }
 }
 
-.main-inner__greeting img{
+.main-inner__greeting img {
   @media (min-width: $tablet-width) {
-    width: 100%;
+    width: 456px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 459px;
   }
 }

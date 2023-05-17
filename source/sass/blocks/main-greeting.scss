@@ -17,7 +17,7 @@
     background-color: $background;
     background-image: url("../img/background/big-background.jpg");
     background-repeat: no-repeat;
-    height: 518px;
+    min-height: 518px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background/main-background@2x.jpg");
