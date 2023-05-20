@@ -3,15 +3,24 @@
   text-align: center;
   margin: 0;
   padding-top: 49px;
+  align-items: center;
+  &.map--nojs {
+    .map-container {
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../img/map/map-desktop.jpg");
+      @media (min-width: $tablet-width) {
+        background-image: url("../img/map/map-tablet.jpg");
 
-
-  @media (min-width: $tablet-width) {
-    height: 350px;
+      }
+      @media (min-width: $desktop-width) {
+        background-image: url("../img/map/map-desktop.jpg");
+      }
+    }
+    iframe {
+      display: none;
+    }
   }
-}
-
-.map img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }

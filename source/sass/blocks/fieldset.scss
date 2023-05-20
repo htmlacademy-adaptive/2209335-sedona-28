@@ -15,6 +15,8 @@
 .fieldset__component {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0;
 }
 
 .fieldset__title {
@@ -58,16 +60,16 @@
 .fieldset__component--radio {
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, auto);
     gap: 16px;
-    padding-left: 96px;
+    margin: 0 60px;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, auto);
     gap: 16px;
-    padding-left: 173px;
+    margin: 0 120px;
   }
 }
 
@@ -76,14 +78,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px 32px;
-    padding-left: 144px;
+    margin: 0 144px;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px 32px;
-    padding-left: 160px;
+    margin: 0 120px;
 
   }
 }

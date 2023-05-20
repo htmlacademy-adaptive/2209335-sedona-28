@@ -15,7 +15,7 @@
   border-bottom: 1px solid #E5E5E5;
   position: relative;
   margin-top: 47px;
-  padding-bottom: 39px;
+
 
   @media (min-width: $tablet-width) {
     border: none;
@@ -46,7 +46,6 @@
 
 .form__fields {
   border: none;
-  padding-top: 45px;
   position: relative;
   padding-left: 0;
 }
@@ -128,12 +127,7 @@
 
 .form__fieldset:first-child {
   @media (min-width: $tablet-width) {
-    border-right: 1px solid #DBDBDB;
-    min-height: 339px;
+    border-right: 1px solid #dbdbdb;
     padding-right: 28px;
-  }
-
-  @media (min-width: $desktop-width) {
-    min-height: 340px;
   }
 }

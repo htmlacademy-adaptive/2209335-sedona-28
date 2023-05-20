@@ -1,38 +1,40 @@
 .checkbox {
   position: relative;
-  display: block;
-  padding-left: 27px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
   text-decoration: none;
   list-style: none;
 
-  @media (min-width: $tablet-width) {
-    width: 224px;
+  &:hover {
+    cursor: pointer;
   }
 }
 
 .checkbox__label {
   font-weight: 700;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 46px;
 }
 
 .checkbox__label::before {
   content: "";
-  display: inline-block;
   width: 46px;
   height: 46px;
   position: absolute;
   background-color: #f2f2f2;
-  left: -40px;
-  top: -10px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .checkbox__input:checked + .checkbox__label::after {
   position: absolute;
-  width: 19px;
+  width: 22px;
   height: 16px;
-  left: -25px;
-  top: 5px;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   background-image: url("../img/dow.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,10 +54,11 @@
 .checkbox:active .checkbox__label::after {
   background-image: url("../img/tick.svg");
   position: absolute;
-  width: 19px;
+  width: 22px;
   height: 16px;
-  left: -25px;
-  top: 5px;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;

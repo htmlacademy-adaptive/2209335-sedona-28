@@ -55,7 +55,20 @@
   justify-content: left;
   flex-wrap: wrap;
   margin: 0;
-  align-items: center;
+  align-items: baseline;
+  gap: 9px;
+  color: black;
+  svg {
+    fill: black;
+    opacity: 0.3;
+  }
+  @media (min-width: $desktop-width) {
+    color: white;
+    svg {
+      fill: white;
+      opacity: 1;
+    }
+  }
 }
 
 .photo__badge {
@@ -70,6 +83,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     height: 80px;
     background-color: #f2f2f2;
@@ -81,30 +95,24 @@
   }
 
   @media (min-width: $desktop-width) {
-    opacity: 0.5;
-    background-color: #000000;
+    background-color: rgba(0,0,0, 0.5);
     color: #ffffff;
-    margin-top: -80px;
-  }
-}
-
-.photo__snap {
-  padding-right: 14px;
-
-  @media (min-width: $desktop-width) {
-    background-image: url("../img/likeicon-white.svg");
-    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
 }
 
 .photo__content--gray {
 
   @media (min-width: $tablet-width) {
-    background: #eaeaea;
+    background-color: #EAEAEA;
   }
 
   @media (min-width: $desktop-width) {
-    background: none;
+    background-color: rgba(0,0,0, 0.5);
   }
 }
 

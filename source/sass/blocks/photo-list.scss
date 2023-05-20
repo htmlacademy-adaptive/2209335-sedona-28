@@ -19,7 +19,7 @@
 .photo-list__element {
   padding: 24px 20px 25px 20px;
   margin: 0;
-
+  position: relative;
 
   @media (min-width: $tablet-width) {
     padding: 0;

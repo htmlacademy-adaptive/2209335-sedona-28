@@ -1,18 +1,4 @@
-/*.form-list {
-  @media (min-width: $tablet-width) {
-
-    margin-left: 60px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-}*/
-
 .form-list__element {
-  margin-top: 26px;
+  padding-top: 26px;
+  list-style: none;
 }
