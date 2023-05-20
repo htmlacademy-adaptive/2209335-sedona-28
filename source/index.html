@@ -7,6 +7,8 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="preload" href="/fonts/psans.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/ptsansbold.woff2" as="font" crossorigin="anonymous">
 </head>
 
 <body class="page__body">
@@ -39,16 +41,14 @@
           </li>
         </ul>
       </nav>
-      <a class="main-header__logo" href="">
+      <a class="main-header__logo">
         <img src="img/logosedona.svg" width="185" height="96" alt="город Седона.">
       </a>
     </header>
     <main class="main-index">
       <section class="main-greeting">
         <h1 class="visually-hidden">Добро пожаловать в великолепную седону</h1>
-        <picture>
           <img src="img/wellcome.svg" width="282" height="214" alt="Welcome to the gorgeous Sedona.">
-        </picture>
       </section>
 
       <section class="advantages">
@@ -64,10 +64,8 @@
             </div>
             <div class="advantages__photo">
               <picture>
-                <source media="(min-width: 1200px)"
-                  srcset="img/advantages/city-desktop.jpg, img/advantages/city-desktop@2x">
-                <source media="(min-width: 768px)"
-                  srcset="img/advantages/city-tablet.jpg, img/advantages/city-tablet@2x">
+                <source media="(min-width: 1200px)" srcset="img/advantages/city-desktop.jpg, img/advantages/city-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/advantages/city-tablet.jpg, img/advantages/city-tablet@2x.jpg 2x">
                 <img src="img/advantages/city.jpg" width="320" height="260" srcset="img/advantages/city@2x.jpg"
                   alt="Здание на фоне красивого пейзажа.">
               </picture>
@@ -95,10 +93,8 @@
           <li class="advantages__item advantages__item--img">
             <div class="advantages__photo">
               <picture>
-                <source media="(min-width: 1200px)"
-                  srcset="img/advantages/kanion-desktop.jpg, img/advantages/kanion-desktop@2x">
-                <source media="(min-width: 768px)"
-                  srcset="img/advantages/kanion-tablet.jpg, img/advantages/kanion-tablet@2x">
+                <source media="(min-width: 1200px)" srcset="img/advantages/kanion-desktop.jpg, img/advantages/kanion-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/advantages/kanion-tablet.jpg, img/advantages/kanion-tablet@2x.jpg 2x">
                 <img src="img/advantages/kanion.jpg" width="320" height="260" srcset="img/advantages/kanion@2x.jpg"
                   alt="Фото каньона.">
               </picture>
@@ -138,11 +134,11 @@
           в Седоне
         </p>
       </section>
-      <a class="search__link" href="hotel.html">Найти гостиницу</a>
+      <a class="search-link" href="hotel.html">Найти гостиницу</a>
       <section class="map">
         <h2 class="visually-hidden">Карта расположения Седоны</h2>
         <div class="map-container">
-          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A65f14acbeaf448effad3f58d7405312c955151cead90eab6325cb932eced567d&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A65f14acbeaf448effad3f58d7405312c955151cead90eab6325cb932eced567d&amp;source=constructor" height="350"></iframe>
         </div>
       </section>
     </main>

@@ -7,6 +7,8 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="preload" href="/fonts/psans.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/ptsansbold.woff2" as="font" crossorigin="anonymous">
 </head>
 
 <body class="page__body">
@@ -59,9 +61,9 @@
           <li class="photo-list__element photo-list__element--big photo">
             <a class="photo__link" href="photo.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/photo/road-desktop.jpg, img/photo/road-desktop@2x">
-                <source media="(min-width: 768px)" srcset="img/photo/road-tablet.jpg, img/photo/road-tablet@2x">
-                <img src="img/photo/road.jpg" width="280" height="280" srcset="img/photo/road@2x.jpg"
+                <source media="(min-width: 1200px)" srcset="img/photo/road-desktop.jpg, img/photo/road-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo/road-tablet.jpg, img/photo/road-tablet@2x.jpg 2x">
+                <img src="img/photo/road.jpg" width="280" height="280" srcset="img/photo/road@2x.jpg 2x"
                   alt="Дорога идущая вдаль на закате.">
               </picture>
             </a>
@@ -71,13 +73,12 @@
                 <p class="photo__description">Автор фото: Борис</p>
               </div>
               <a class="photo__statistics" href="">
-                  <svg class="photo" fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"
-                       />
-                  </svg>
-                  <span class="photo__badge">1350</span>
+                <svg fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" />
+                </svg>
+                <span class="photo__badge">1350</span>
               </a>
             </div>
 
@@ -85,9 +86,9 @@
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/photo/herb-desktop.jpg, img/photo/herb-desktop@2x">
-                <source media="(min-width: 768px)" srcset="img/photo/herb-tablet.jpg, img/photo/herb-tablet@2x">
-                <img src="img/photo/herb.jpg" width="280" height="280" srcset="img/photo/herb@2x.jpg" alt="Растение.">
+                <source media="(min-width: 1200px)" srcset="img/photo/herb-desktop.jpg, img/photo/herb-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo/herb-tablet.jpg, img/photo/herb-tablet@2x.jpg 2x">
+                <img src="img/photo/herb.jpg" width="280" height="280" srcset="img/photo/herb@2x.jpg 2x" alt="Растение.">
               </picture>
             </a>
             <div class="photo__content">
@@ -96,12 +97,11 @@
                 <p class="photo__description">Автор фото: Сергей</p>
               </div>
               <a class="photo__statistics" href="">
-                  <svg class="photo" fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"
-                      />
-                  </svg>
+                <svg fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" />
+                </svg>
                 <span class="photo__badge">143</span>
               </a>
             </div>
@@ -110,9 +110,9 @@
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/photo/chaff-desktop.jpg, img/photo/chaff-desktop@2x">
-                <source media="(min-width: 768px)" srcset="img/photo/chaff-tablet.jpg, img/photo/chaff-tablet@2x">
-                <img src="img/photo/chaff.jpg" width="280" height="280" srcset="img/photo/chaff@2x.jpg"
+                <source media="(min-width: 1200px)" srcset="img/photo/chaff-desktop.jpg, img/photo/chaff-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo/chaff-tablet.jpg, img/photo/chaff-tablet@2x.jpg 2x">
+                <img src="img/photo/chaff.jpg" width="280" height="280" srcset="img/photo/chaff@2x.jpg 2x"
                   alt="Дорога в горах.">
               </picture>
             </a>
@@ -122,12 +122,11 @@
                 <p class="photo__description">Автор фото: Петр</p>
               </div>
               <a class="photo__statistics" href="">
-                  <svg class="photo" fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"
-                      />
-                  </svg>
+                <svg fill="#FFFFFF" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" />
+                </svg>
                 <span class="photo__badge">96</span>
               </a>
             </div>
@@ -136,9 +135,9 @@
           <li class="photo-list__element photo">
             <a class="photo__link" href="photo.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/photo/hill-desktop.jpg, img/photo/hill-desktop@2x">
-                <source media="(min-width: 768px)" srcset="img/photo/hill-tablet.jpg, img/photo/hill-tablet@2x">
-                <img src="img/photo/hill.jpg" width="280" height="280" srcset="img/photo/hill@2x.jpg" alt="Каньон.">
+                <source media="(min-width: 1200px)" srcset="img/photo/hill-desktop.jpg, img/photo/hill-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/photo/hill-tablet.jpg, img/photo/hill-tablet@2x.jpg 2x">
+                <img src="img/photo/hill.jpg" width="280" height="280" srcset="img/photo/hill@2x.jpg 2x" alt="Каньон.">
               </picture>
             </a>
             <div class="photo__content">
@@ -147,12 +146,11 @@
                 <p class="photo__description">Автор фото: Антон</p>
               </div>
               <a class="photo__statistics" href="">
-                  <svg class="photo" fill="white" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"
-                      />
-                  </svg>
+                <svg fill="white" aria-hidden="true" width="23" height="21" viewBox="0 0 23 21"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" />
+                </svg>
                 <span class="photo__badge">254</span>
               </a>
             </div>
@@ -168,13 +166,14 @@
               очередной раз!</p>
           </div>
           <div class="video__card">
-            <a class="video__presentation visually-hidden" href="#">Видеопрезентация Седоны</a>
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/video-desktop.jpg, img/video-desktop@2x">
-              <source media="(min-width: 768px)" srcset="img/video-desktop.jpg, img/video-tablet@2x">
-              <img class="video__presentation" src="img/video-desktop.jpg" width="280" height="177" srcset="img/video-desktop.jpg"
-                alt="Дорога в горах.">
-            </picture>
+            <a class="video__presentation visually-hidden" href="#">Видеопрезентация Седоны
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/video-desktop.jpg, img/video-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/video-tablet.jpg, img/video-tablet@2x.jpg 2x">
+                <img class="video__presentation" src="img/video-mobile.jpg" width="280" height="177"
+                  srcset="img/video-mobile@2x.jpg 2x" alt="Дорога в горах.">
+              </picture>
+            </a>
           </div>
         </div>
       </section>

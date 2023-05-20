@@ -4,6 +4,19 @@
   margin: 0;
   padding-top: 49px;
   align-items: center;
+
+  iframe {
+    width: 320px;
+    border: none;
+
+    @media (min-width: $tablet-width) {
+      width: 768px;
+    }
+    @media (min-width: $desktop-width) {
+      width: 1200px;
+    }
+  }
+
   &.map--nojs {
     .map-container {
       width: 100%;

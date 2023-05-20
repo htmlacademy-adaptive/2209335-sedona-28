@@ -52,12 +52,8 @@
 
 
 .main-greeting img {
-
+   width: 282px;
   @media (min-width: $tablet-width) {
-    width: 100%;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 100%;
+    width: 461px;
   }
 }
