@@ -7,7 +7,7 @@
   background-color: $background;
   background-size: cover;
   padding-left: 19px;
-  padding-top: 90px;
+  padding-top: 53px;
   padding-right: 19px;
   padding-bottom: 67px;
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@
     background-color: $background;
     background-image: url("../img/background/inner-background.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 290px;
 
     @media (min-resolution: 2dppx) {
@@ -24,9 +25,11 @@
       background-size: cover;
     }
   }
+
   @media (min-width: $desktop-width) {
     background-image: url("../img/background/biginner-background.jpg");
     background-size: cover;
+    min-height: 302px;
   }
 }
 
@@ -51,10 +54,11 @@
   }
 }
 
-.main-form__greeting img{
+.main-form__greeting img {
   @media (min-width: $tablet-width) {
     width: 456px;
   }
+
   @media (min-width: $desktop-width) {
     width: 459px;
   }

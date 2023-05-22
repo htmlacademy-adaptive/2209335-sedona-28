@@ -43,7 +43,7 @@
 
       </nav>
       <a class="main-header__logo" href="index.html">
-        <img src="img/logosedona.svg" width="185" height="96" alt="город Седона.">
+        <img src="img/logosedona-mobile.svg" width="185" height="96" alt="город Седона.">
       </a>
     </header>
     <main class="main-form">
@@ -110,19 +110,19 @@
 
         </div>
 
-        <fieldset class="form__fieldset fieldset">
+        <fieldset class="form__fieldset fieldset form__fieldset--radio fieldset">
           <h2 class="fieldset__legend  fieldset__legend--line ">
-            <span class="fieldset__title">Ваше общее впечатление:</span>
+            <span class="fieldset__title fieldset__title--radio">Ваше общее впечатление:</span>
           </h2>
           <ul class="fieldset__component fieldset__component--radio form-list">
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--radio">
               <label class="radio">
                 <input class="radio__input visually-hidden" type="radio" name="review" value="positive-review" checked>
                 <span class="radio__label">Скорее положительное</span>
               </label>
 
             </li>
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--radio">
 
               <label class="radio">
                 <input class="radio__input visually-hidden" type="radio" name="review" value="negative-review">
@@ -130,7 +130,7 @@
               </label>
 
             </li>
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--radio">
 
               <label class="radio">
                 <input class="radio__input visually-hidden" type="radio" name="review" value="humper-review">
@@ -140,12 +140,12 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="form__fieldset fieldset">
+        <fieldset class="form__fieldset fieldset form__fieldset--checkbox fieldset">
           <h2 class="fieldset__legend  fieldset__legend--line ">
             <span class="fieldset__title">посещенные<br>достопримечательности:</span>
           </h2>
           <ul class="fieldset__component fieldset__component--checkbox form-list">
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--checkbox">
 
               <label class="checkbox">
                 <input class="checkbox__input visually-hidden" type="checkbox" name="bridge" checked>
@@ -154,7 +154,7 @@
               </label>
 
             </li>
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--checkbox">
 
               <label class="checkbox">
                 <input class="checkbox__input visually-hidden" type="checkbox" name="mount" checked>
@@ -163,7 +163,7 @@
               </label>
 
             </li>
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--checkbox">
 
               <label class="checkbox">
                 <input class="checkbox__input visually-hidden" type="checkbox" name="park" checked>
@@ -172,7 +172,7 @@
               </label>
 
             </li>
-            <li class="form-list__element">
+            <li class="form-list__element form-list__element--checkbox">
 
               <label class="checkbox">
                 <input class="checkbox__input visually-hidden" type="checkbox" name="rock">
@@ -186,7 +186,7 @@
 
         <fieldset class="form__fields fieldset">
           <h2 class="fieldset__legend  fieldset__legend--line ">
-            <span class="fieldset__title">Опишите свои эмоции:</span>
+            <span class="fieldset__title fieldset__title--feedback">Опишите свои эмоции:</span>
           </h2>
           <label class="fieldset visually-hidden">Опишите свои эмоции</label>
           <textarea class="fieldset__textarea" id="decription-emotions"
@@ -201,9 +201,9 @@
 
       </form>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer main-footer--form">
       <div class="contacts">
-        <a class="contacts__link" href="">#visitsedona</a>
+        <a class="contacts__link" href="">#VISITSEDONA</a>
       </div>
       <div class="social">
         <b class="social__title visually-hidden">Давайте дружить!</b>

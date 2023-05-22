@@ -4,13 +4,12 @@
   text-align: center;
   margin: 0;
 
-
   @media (min-width: $tablet-width) {
-    padding: 60px 150px 44px 150px;
+    padding: 60px 150px 45px 150px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 60px 383px 44px 383px;
+    padding: 65px 380px 44px 380px;
   }
 }
 
@@ -21,6 +20,7 @@
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 0px;
+
   br {
     display: none;
   }

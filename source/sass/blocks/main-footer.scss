@@ -14,4 +14,32 @@
     margin-top: 36px;
     padding: 0;
   }
+  @media (min-width: $desktop-width) {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 36px;
+    margin-top: 46px;
+  }
+}
+
+.main-footer--catalog {
+  padding-top: 26px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 34px;
+  }
+  @media (min-width: $desktop-width) {
+    padding-top: 66px;
+  }
+}
+
+.main-footer--form {
+  padding-top: 55px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 65px;
+  }
+  @media (min-width: $desktop-width) {
+    padding-top: 52px;
+  }
 }

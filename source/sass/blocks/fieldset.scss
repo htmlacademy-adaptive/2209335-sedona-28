@@ -4,12 +4,15 @@
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
     position: relative;
     text-align: center;
   }
-
 }
 
 .fieldset__component {
@@ -28,13 +31,34 @@
     background: #ffffff;
     vertical-align: middle;
 
+    @media (min-width: $tablet-width) {
+      padding-left: 118px;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding-left: 43px;
+    }
+  }
+}
+
+.fieldset__title--feedback {
+  padding-left: 14px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 58px;
   }
 }
 
 .fieldset__legend--line::before {
-
   @media (min-width: $tablet-width) {
-    background: #E5E5E5;
+    background: #e5e5e5;
     content: "";
     position: absolute;
     width: 100%;
@@ -46,9 +70,11 @@
 }
 
 .fieldset__legend--line {
+  margin: 0;
+
   @media (min-width: $tablet-width) {
     margin-left: 60px;
-    margin-right: 45px;
+    margin-right: 120px;
   }
 
   @media (min-width: $desktop-width) {
@@ -60,16 +86,16 @@
 .fieldset__component--radio {
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 16px;
-    margin: 0 60px;
+    grid-template-columns: repeat(2, auto);
+    gap: 16px 0px;
+    margin: 26px 60px 38px 60px;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 16px;
-    margin: 0 120px;
+    grid-template-columns: repeat(3, auto);
+    gap: 60px;
+    margin: 45px 170px;
   }
 }
 
@@ -77,31 +103,33 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px 32px;
-    margin: 0 144px;
+    gap: 2px 42px;
+    margin: 25px 144px 0px 144px;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px 32px;
-    margin: 0 120px;
-
+    gap: 49px;
+    margin: 60px 152px 42px 160px;
   }
 }
 
 .fieldset__textarea {
   width: 279px;
   min-height: 150px;
-  margin-bottom: 56px;
-  margin-left: 20px;
+  margin-bottom: 37px;
+  margin-left: 14px;
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   background: $grey;
   border: 4px solid $grey;
-  padding: 16px;
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
   text-align: left;
   resize: none;
   margin-top: 20px;
@@ -109,28 +137,55 @@
   &:hover {
     background-color: #d5d5d5;
     border-color: #d5d5d5;
-    cursor: pointer;
   }
 
   &:focus {
-    background: white;
-    border-color: #E5E5E5;
+    background: #ffffff;
+    border-color: #e5e5e5;
     outline: 0;
   }
 
   &:disabled {
     background: #e5e5e5;
-
   }
 
   @media (min-width: $tablet-width) {
     width: 648px;
     margin-left: 60px;
-    margin-bottom: 48px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
   }
 
   @media (min-width: $desktop-width) {
     width: 768px;
     margin-left: 216px;
+    margin-bottom: 38px;
+  }
+}
+
+.fieldset__title--checkbox {
+  margin-bottom: 50px;
+  padding-left: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0px;
+    padding-left: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0px;
+  }
+}
+
+.fieldset__title--radio {
+  padding-left: 0px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 88px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 46px;
   }
 }

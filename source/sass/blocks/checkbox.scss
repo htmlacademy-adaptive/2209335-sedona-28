@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   padding-left: 60px;
+  padding-top: 3px;
   text-decoration: none;
   list-style: none;
 
@@ -32,7 +33,7 @@
   position: absolute;
   width: 22px;
   height: 16px;
-  left: 14px;
+  left: 11px;
   top: 50%;
   transform: translateY(-50%);
   background-image: url("../img/dow.svg");
@@ -40,7 +41,6 @@
   background-repeat: no-repeat;
   cursor: pointer;
   content: "";
-
 }
 
 .checkbox:hover .checkbox__label::before {
@@ -63,10 +63,9 @@
   background-repeat: no-repeat;
   cursor: pointer;
   content: "";
-
 }
 
-.checkbox__input:disabled{
+.checkbox__input:disabled {
   background-color: #f2f2f2;
   color: #f2f2f2;
 }

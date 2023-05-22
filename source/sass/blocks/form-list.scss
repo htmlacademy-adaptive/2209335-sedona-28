@@ -2,3 +2,17 @@
   padding-top: 26px;
   list-style: none;
 }
+
+.form-list__element--radio {
+  padding-top: 11px;
+  padding-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 10px;
+  }
+}
+
+.form-list__element--checkbox {
+  padding: 0;
+  margin-bottom: 13px;
+}

@@ -5,6 +5,11 @@
   display: flex;
   align-items: center;
   padding-left: 60px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 65px;
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -32,13 +37,17 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  left: 16px;
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
   background: #333333;
   cursor: pointer;
   content: "";
+
+  @media (min-width: $tablet-width) {
+   left: 17px
+  }
 }
 
 .radio:hover .radio__label::before {

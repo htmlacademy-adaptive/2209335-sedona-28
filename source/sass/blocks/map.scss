@@ -10,28 +10,34 @@
     border: none;
 
     @media (min-width: $tablet-width) {
+      padding-top: 7px;
       width: 768px;
     }
+
     @media (min-width: $desktop-width) {
+      padding-top: 15px;
       width: 1200px;
     }
   }
 
   &.map--nojs {
+
     .map-container {
       width: 100%;
       height: 350px;
       background-size: cover;
       background-repeat: no-repeat;
       background-image: url("../img/map/map-desktop.jpg");
+
       @media (min-width: $tablet-width) {
         background-image: url("../img/map/map-tablet.jpg");
-
       }
+
       @media (min-width: $desktop-width) {
         background-image: url("../img/map/map-desktop.jpg");
       }
     }
+
     iframe {
       display: none;
     }

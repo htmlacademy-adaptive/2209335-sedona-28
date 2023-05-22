@@ -9,6 +9,19 @@
   padding-bottom: 24px;
   text-align: center;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    margin-top: 28px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 115px;
+  }
 }
 
 .reviews__description {
@@ -26,9 +39,14 @@
   }
 
   @media (min-width: $tablet-width) {
+
     br {
       display: block;
     }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 35px;
   }
 }
 

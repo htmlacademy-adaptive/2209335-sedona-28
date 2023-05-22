@@ -40,8 +40,8 @@
 .main-header__toggle .main-header__burger {
   background: #81b3d2;
   display: block;
-  height: 2px;
-  width: 18px;
+  height: 4px;
+  width: 23px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -49,11 +49,11 @@
 }
 
 .main-header__toggle .main-header__burger::before {
-  top: calc(50% - 6px);
+  top: calc(50% - 10px);
 }
 
 .main-header__toggle .main-header__burger::after {
-  top: calc(50% + 4px);
+  top: calc(50% + 7px);
 }
 
 .main-header__toggle .main-header__burger::before,
