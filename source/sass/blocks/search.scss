@@ -1,11 +1,12 @@
 .search {
   text-transform: uppercase;
-  padding: 11px 29px 32px 29px;
+  padding: 0px 29px 32px 29px;
   text-align: center;
   margin: 0;
 
+
   @media (min-width: $tablet-width) {
-    padding: 60px 166px 44px 166px;
+    padding: 60px 150px 44px 150px;
   }
 
   @media (min-width: $desktop-width) {
@@ -18,12 +19,33 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  br {
+    display: none;
+  }
+
+ @media (min-width: $tablet-width) {
+  margin-top: 30px;
+  br {
+    display: block;
+  }
+ }
 }
 
 .search__title {
+  font-family: inherit;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+
 }

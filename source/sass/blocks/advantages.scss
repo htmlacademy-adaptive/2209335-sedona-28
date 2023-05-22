@@ -1,12 +1,10 @@
 .advantages__title {
-  padding-bottom: 11px;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  margin-bottom: 10px;
   position: relative;
   font-family: inherit;
   font-size: 18px;
   line-height: 26px;
+  margin-top: 60px;
 
   br {
     display: none;
@@ -15,7 +13,9 @@
   @media (min-width: $tablet-width) {
     font-weight: 700;
     font-size: 21px;
-    line-height: 26px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
 
     br {
       display: block;
@@ -42,7 +42,8 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding-top: 49px;
+    padding-top: 48px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 21px;
     line-height: 26px;
@@ -61,6 +62,11 @@
   }
 }
 
+.advantages__title--grey{
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
 .advantages__reasons {
   color: #333333;
   font-size: 14px;
@@ -68,17 +74,18 @@
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 27px;
-  padding-top: 24px;
-  margin: 0;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 27px;
+  margin-top: 24px;
+
 
   @media (min-width: $tablet-width) {
     padding-right: 124px;
     padding-left: 124px;
     padding-bottom: 53px;
-    padding-top: 20px;
+    padding-top: 12px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -101,6 +108,7 @@
     flex-wrap: wrap;
     min-height: 256px;
     width: 100%;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -115,13 +123,16 @@
 
   &.back-grey {
     background: #eeeeee;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 24px;
+    padding-bottom: 19px;
+
 
     @media (min-width: $tablet-width) {
       padding-left: 0;
       padding-right: 0;
+      padding-bottom: 0px;
       margin: 0;
     }
   }
@@ -138,7 +149,7 @@
   display: flex;
   flex-shrink: 0;
   min-height: 260px;
-  width: 320px;
+
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -157,14 +168,16 @@
   flex-direction: column;
   padding-left: 13px;
   padding-right: 13px;
-  padding-bottom: 24px;
+  padding-bottom: 0;
+  padding-top: 37px;
   text-transform: uppercase;
   min-height: 117px;
   align-items: center;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     width: 256px;
-    padding: 0px 32px 0px 32px;
+    padding: 55px 32px 0px 32px;
     margin: 0;
 
   }
@@ -182,21 +195,23 @@
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
-  margin: 0;
+  margin-bottom: 37px;
+  margin-top: 0px;
 
   @media (min-width: $tablet-width) {
     br {
       display: none;
     }
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
 
   }
 }
 
+.advantages__description--grey{
+  margin-bottom: 48px;
+
+}
 .advantages__item--img {
   color: #ffffff;
   background: #81b3d2;
@@ -226,15 +241,20 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  padding-bottom: 19px;
+  margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 25px;
+  }
 }
 
 .advantages__text--triangle {
   position: relative;
-  padding-top: 59px;
+  margin-top: 0px;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
-    padding-top: 55px;
+    padding: 55px 30px 0px 30px;
 
   }
 
@@ -263,6 +283,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.advantages__photo picture {
+  display: flex;
 }
 
 .advantages__item:not(:last-child)::after {
@@ -295,24 +320,21 @@
   @media (max-width:$mobile-width-only) {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 36px;
-  }
-
-  @media (min-width: $tablet-width) {
-    padding-top: 22px;
+    /*padding-top: 36px;*/
   }
 }
 
 .advantages__text--grey {
-  padding-top: 15px;
+  margin: 0;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
-    padding-top: 10px;
-    padding-left: 28px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 18px;
   }
 }
 
-.advantages__item--grey {
-  padding-bottom: 0;
-
+.advantages__title--blue {
+  margin-top: 0;
 }

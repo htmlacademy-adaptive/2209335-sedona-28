@@ -1,9 +1,9 @@
 .services__item {
   list-style-type: none;
   width: 100%;
-  min-height: 113px;
   text-align: left;
-
+  padding: 0;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     text-align: center;
@@ -20,17 +20,15 @@
 
 .services__list {
   background-color: #ffffff;
-  margin: 0;
   padding-left: 18px;
-  padding-top: 23px;
+  padding-top: 17px;
   padding-right: 18px;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
+
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    min-height: 256px;
     padding: 0;
   }
 
@@ -43,43 +41,43 @@
 }
 
 .services__title {
-  padding-left: 47px;
+  display: block;
+  margin-left: 47px;
   text-transform: uppercase;
-  padding-top: 4px;
-  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-
+  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-right: 0;
 
   @media (min-width: $tablet-width) {
-    padding-top: 21px;
-    padding-left: 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    margin-left: 0;
   }
 
 }
 
 .services__description {
-  padding-left: 47px;
+  margin-left: 47px;
   font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 400;
   text-transform: uppercase;
-  padding-bottom: 31px;
-  padding-top: 15px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
 
   br {
     display: none;
   }
 
-
   @media (min-width: $tablet-width) {
-    padding-top:20px;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
+    margin: 0;
 
     br {
       display: block;
@@ -105,11 +103,14 @@
 .services__item--home {
   background-image: url("../img/servises/iconhouse.svg");
   background-repeat: no-repeat;
-  background-position: left -5px;
+  background-position: left 7px;
+  padding-top: 7px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconhouse-tablet.svg");
-    background-position: center 50px;
+    background-position: center 56px;
+    padding-top: 145px;
+
   }
 
   @media (min-width: $desktop-width) {
@@ -121,11 +122,13 @@
 .services__item--eat {
   background-image: url("../img/servises/iconburger.svg");
   background-repeat: no-repeat;
-  background-position: left -5px;
+  background-position: left 15px;
+  padding-top: 16px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconburger-tablet.svg");
-    background-position: center 53px;
+    background-position: center 58px;
+    padding-top: 145px;
   }
 
   @media (min-width: $desktop-width) {
@@ -137,11 +140,13 @@
 .services__item--present {
   background-image: url("../img/servises/iconpresent.svg");
   background-repeat: no-repeat;
-  background-position: left -6px;
+  background-position: left 16px;
+  padding-top: 16px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconpresent-tablet.svg");
-    background-position: center 54px;
+    background-position: center 60px;
+    padding-top: 140px;
   }
 
   @media (min-width: $desktop-width) {
