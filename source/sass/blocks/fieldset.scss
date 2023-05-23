@@ -87,7 +87,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 16px 0px;
+    gap: 16px 0;
     margin: 26px 60px 38px 60px;
   }
 
@@ -104,7 +104,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2px 42px;
-    margin: 25px 144px 0px 144px;
+    margin: 25px 144px 0 144px;
   }
 
   @media (min-width: $desktop-width) {
@@ -169,17 +169,17 @@
   padding-left: 0;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-left: 110px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
 .fieldset__title--radio {
-  padding-left: 0px;
+  padding-left: 0;
 
   @media (min-width: $tablet-width) {
     padding-left: 88px;

@@ -169,8 +169,8 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    width: calc(100%/3);
-    padding: 55px 32px 0px 32px;
+    width: calc(100% / 3);
+    padding: 55px 32px 0 32px;
     margin: 0;
   }
 
@@ -188,15 +188,14 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 37px;
-  margin-top: 0px;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     br {
       display: none;
     }
-
-    margin-bottom: 0px;
-    padding: 0px;
+    margin-bottom: 0;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -212,6 +211,7 @@
   @media (min-width: $desktop-width) {
     padding-left: 20px;
     padding-right: 20px;
+
     br {
       display: none;
     }
@@ -255,11 +255,11 @@
 
 .advantages__text--triangle {
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
   padding: 0;
 
   @media (min-width: $tablet-width) {
-    padding: 54px 30px 0px 30px;
+    padding: 54px 30px 0 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -316,8 +316,9 @@
   }
 }
 
-.advantages__description--grey--shift{
+.advantages__description--grey--shift {
   margin-bottom: 49px;
+
   br {
     display: none;
   }
@@ -326,9 +327,11 @@
     br {
       display: block;
     }
+
     padding-left: 28px;
     padding-right: 28px;
   }
+
   @media (min-width: $desktop-width) {
     padding-left: 0;
     padding-right: 0;

@@ -1,5 +1,4 @@
 .site-list {
-
   @media (min-width: $tablet-width) {
     width: 768px;
   }
@@ -17,7 +16,6 @@
 
 .site-list__item a[href] {
   @media (min-width: $tablet-width) {
-
     &:hover {
       color: #766357;
       background-color: #ffffff;
