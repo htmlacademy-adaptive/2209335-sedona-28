@@ -89,9 +89,18 @@
   @media (min-width: $desktop-width) {
     margin-top: 20px;
     margin-bottom: 7px;
+
     br {
-      display: none;
+      display:block;
     }
+  }
+}
+
+.services__description--home{
+  @media (min-width: $desktop-width) {
+   br {
+    display: none;
+   }
   }
 }
 

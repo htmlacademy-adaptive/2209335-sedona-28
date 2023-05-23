@@ -5,7 +5,7 @@
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    padding: 60px 150px 45px 150px;
+    padding: 55px 150px 45px 150px;
   }
 
   @media (min-width: $desktop-width) {
@@ -25,12 +25,13 @@
     display: none;
   }
 
- @media (min-width: $tablet-width) {
-  margin-top: 30px;
-  br {
-    display: block;
+  @media (min-width: $tablet-width) {
+    margin-top: 30px;
+
+    br {
+      display: block;
+    }
   }
- }
 }
 
 .search__title {
@@ -46,6 +47,4 @@
     font-size: 30px;
     line-height: 26px;
   }
-
-
 }

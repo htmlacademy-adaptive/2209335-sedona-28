@@ -20,6 +20,7 @@
     min-height: 518px;
     padding-top: 77px;
 
+
     @media (min-resolution: 2dppx) {
       background-image: url("../img/background/main-background@2x.jpg");
       background-size: cover;
@@ -54,7 +55,8 @@
 
 
 .main-greeting img {
-   width: 282px;
+  width: 282px;
+
   @media (min-width: $tablet-width) {
     width: 461px;
   }

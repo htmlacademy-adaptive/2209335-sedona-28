@@ -66,9 +66,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    color: white;
+    color: #ffffff;
+
     svg {
-      fill: white;
+      fill: #ffffff;
       opacity: 1;
     }
   }
@@ -97,7 +98,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     position: absolute;
     bottom: 0;
@@ -108,18 +109,16 @@
 }
 
 .photo__content--gray {
-
   @media (min-width: $tablet-width) {
-    background-color: #EAEAEA;
+    background-color: #eaeaea;
   }
 
   @media (min-width: $desktop-width) {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
 .photo__link img {
-
   @media (min-width: $tablet-width) {
     width: 100%;
     height: 100%;
@@ -127,18 +126,18 @@
   }
 }
 
-.photo__link picture{
+.photo__link picture {
   display: flex;
 }
 
-.photo__card{
+.photo__card {
   fill: #000000;
 
   &:hover {
     fill: #666666;
-   }
+  }
 
-   &:active {
-     fill: #999999;
-   }
+  &:active {
+    fill: #999999;
+  }
 }

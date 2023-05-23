@@ -1,6 +1,11 @@
 .modal-fail {
   width: 400px;
   height: 347px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 280px;
+  }
 }
 
 .modal-fail .modal__info {
@@ -10,11 +15,4 @@
 .modal-fail .modal__control {
   padding-left: 64px;
   padding-right: 64px;
-}
-
-.modal-fail {
-  @media (max-width: 500px) {
-  width: 100%;
-  height: 280px;
-  }
 }
