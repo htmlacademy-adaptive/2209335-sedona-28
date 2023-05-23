@@ -91,16 +91,16 @@
     margin-bottom: 7px;
 
     br {
-      display:block;
+      display: block;
     }
   }
 }
 
-.services__description--home{
+.services__description--home {
   @media (min-width: $desktop-width) {
-   br {
-    display: none;
-   }
+    br {
+      display: none;
+    }
   }
 }
 
