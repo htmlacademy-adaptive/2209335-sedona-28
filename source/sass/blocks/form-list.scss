@@ -4,11 +4,12 @@
 }
 
 .form-list__element--radio {
-  padding-top: 11px;
+  padding-top: 9px;
   padding-bottom: 26px;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 9px;
   }
 }
 
