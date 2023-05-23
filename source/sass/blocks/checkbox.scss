@@ -54,12 +54,6 @@
 .checkbox:active .checkbox__label::after {
   background-image: url("../img/tick.svg");
   position: absolute;
-  width: 22px;
-  height: 16px;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
   content: "";
