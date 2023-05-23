@@ -2,6 +2,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
+
+  &:hover {
+    .copyright__text {
+      color: #81b3d2;
+      cursor: pointer;
+    }
+
+    .copyright__link {
+      color: #81b3d2;
+      cursor: pointer;
+    }
+
+    .copyright__card {
+      fill: #81b3d2;
+      cursor: pointer;
+    }
+  }
+
+
+  &:active {
+    color: #b3b3b3;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
 }
 
 .copyright__text {
@@ -10,4 +37,16 @@
   line-height: 21px;
   text-transform: uppercase;
   padding-right: 12px;
+}
+
+.copyright__card {
+  fill: #000000;
+
+  &:hover {
+    fill: #81b3d2;
+  }
+
+  &:active {
+    fill: #b3b3b3;
+  }
 }

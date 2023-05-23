@@ -1,56 +1,106 @@
 .services__item {
   list-style-type: none;
-  width: 284px;
-  min-height: 113px;
+  width: 100%;
   text-align: left;
+  padding: 0;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     text-align: center;
-    min-height: 331px;
     width: 256px;
-    padding: 60px 33px;
+    padding: 124px 33px 60px 33px;
   }
 
   @media (min-width: $desktop-width) {
     width: 400px;
     text-align: center;
-    padding: 69px 50px;
+    padding: 130px 50px 60px 50px;
   }
 }
 
 .services__list {
-  padding: 0;
   background-color: #ffffff;
+  padding-left: 18px;
+  padding-top: 17px;
+  padding-right: 18px;
+  padding-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    min-height: 256px;
+    padding-right: 0;
   }
 }
 
 .services__title {
-  padding-left: 65px;
+  display: block;
+  margin-left: 47px;
   text-transform: uppercase;
-  padding-top: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-right: 0;
 
   @media (min-width: $tablet-width) {
-    padding-top: 30px;
-    padding-left: 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 23px;
   }
 }
 
 .services__description {
-  padding-left: 65px;
+  margin-left: 47px;
+  font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 400;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
 
+  br {
+    display: none;
+  }
 
   @media (min-width: $tablet-width) {
-    padding: 0;
+    margin: 0;
+
+    br {
+      display: block;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 20px;
+    margin-bottom: 7px;
+
+    br {
+      display:block;
+    }
+  }
+}
+
+.services__description--home{
+  @media (min-width: $desktop-width) {
+   br {
+    display: none;
+   }
   }
 }
 
@@ -59,38 +109,63 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
 .services__item--home {
   background-image: url("../img/servises/iconhouse.svg");
   background-repeat: no-repeat;
-  background-position: left 18px top;
+  background-position: left 7px;
+  padding-top: 7px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconhouse-tablet.svg");
-    background-position: center 30px;
+    background-position: center 60px;
+    padding-top: 150px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/servises/iconhouse-desktop.svg");
+    background-position: center 68px;
+    padding-top: 159px;
   }
 }
 
 .services__item--eat {
   background-image: url("../img/servises/iconburger.svg");
   background-repeat: no-repeat;
-  background-position: left 18px top;
+  background-position: left 15px;
+  padding-top: 16px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconburger-tablet.svg");
-    background-position: center 30px;
+    background-position: center 62px;
+    padding-top: 148px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/servises/iconburger-desktop.svg");
+    background-position: center 69px;
+    padding-top: 158px;
   }
 }
 
 .services__item--present {
   background-image: url("../img/servises/iconpresent.svg");
   background-repeat: no-repeat;
-  background-position: left 18px top;
+  background-position: left 16px;
+  padding-top: 16px;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/servises/iconpresent-tablet.svg");
-    background-position: center 30px;
+    background-position: center 64px;
+    padding-top: 146px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/servises/iconpresent-desktop.svg");
+    background-position: center 67px;
+    padding-top: 162px;
   }
 }

@@ -1,20 +1,18 @@
-.form-list {
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 60px;
-  }
+.form-list__element {
+  padding-top: 26px;
+  list-style: none;
+}
 
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 120px;
-    margin-right: 120px;
+.form-list__element--radio {
+  padding-top: 11px;
+  padding-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 10px;
   }
 }
 
-.form-list__element {
-  margin-top: 26px;
+.form-list__element--checkbox {
+  padding: 0;
+  margin-bottom: 13px;
 }

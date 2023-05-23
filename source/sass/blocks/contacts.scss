@@ -1,8 +1,33 @@
 .contacts__link {
+  display: block;
   text-decoration: none;
   color: inherit;
-  margin: 0;
+  font-family: inherit;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  margin: 0;
+  padding-bottom: 30px;
+  cursor: pointer;
+
+
+  &:hover {
+    color: #81b3d2;
+  }
+
+
+  &:active {
+    color: #000000;
+    opacity: 0.3;
+  }
+
+
+  &:current {
+    color: #766357;
+  }
+
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }

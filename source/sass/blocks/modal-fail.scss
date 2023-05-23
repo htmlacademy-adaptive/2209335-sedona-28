@@ -1,0 +1,18 @@
+.modal-fail {
+  width: 400px;
+  height: 347px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+.modal-fail .modal__info {
+  padding: 15px 50px 25px 50px;
+}
+
+.modal-fail .modal__control {
+  padding-left: 64px;
+  padding-right: 64px;
+}

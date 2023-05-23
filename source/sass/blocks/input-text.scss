@@ -3,19 +3,35 @@
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  padding-left: 16px;
-  padding-top: 16px;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 19px;
+  }
 }
 
 .input-text__input {
-  width: 280px;
+  width: 100%;
   height: 58px;
   background: #f2f2f2;
-  border: none;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-  padding-left: 16px;
+  padding-left: 10px;
+  border: 4px solid #f2f2f2;
+
+  &:hover {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    color: #000000;
+  }
+
+  &:focus {
+    background: #ffffff;
+    outline: 0;
+  }
 
   @media (min-width: $tablet-width) {
     width: 295px;
@@ -27,33 +43,47 @@
 }
 
 .input-text__container {
-  display: flex;
+  background: #e6e6e6;
+  position: relative;
+  width: 100%;
+
+  .input-text__icon {
+    position: absolute;
+    background: #e6e6e6;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.input-text__container img {
-  background: #e6e6e6;
-  padding: 20px;
+.input-text__container svg {
+  margin-right: 20px;
+  margin-left: 20px;
+  fill: #000000;
+  cursor: pointer;
+
+  &:hover {
+    fill: #666666;
+  }
+
+  &:active {
+    fill: #deb887;
+  }
 }
 
 .input-text__input--phone {
-  width: 222px;
+  padding-right: 12px;
 
-  @media (min-width: $tablet-width) {
-  width: 238px;
-  }
   @media (min-width: $desktop-width) {
-    width: 430px;
+    padding-left: 10px;
   }
-
 }
 
 .input-text__input--mail {
-  width: 222px;
-
-  @media (min-width: $tablet-width) {
-  width: 240px;
-  }
-  @media (min-width: $desktop-width) {
-    width: 430px;
-  }
+  padding-right: 12px;
 }

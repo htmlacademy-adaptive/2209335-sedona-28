@@ -1,0 +1,19 @@
+.modal-success {
+  width: 640px;
+  height: 347px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+.modal-success .modal__info {
+  padding: 15px 99px 28px 99px;
+}
+
+.modal-success .modal__control {
+  background: #f2f2f2;
+  padding: 44px 91px;
+}

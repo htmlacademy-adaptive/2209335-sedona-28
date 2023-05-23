@@ -1,12 +1,28 @@
 .social__list {
-  display: flex;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
 }
 
 .social__link {
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
   text-decoration: none;
   background-color: #81b3d2;
-  margin-right: 6px;
+  fill: #ffffff;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background: #5496bd;
+    fill: rgba(255, 255, 255, 0.3);
+  }
 }
