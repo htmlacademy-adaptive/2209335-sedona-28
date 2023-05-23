@@ -1,6 +1,6 @@
 .search {
   text-transform: uppercase;
-  padding: 0px 29px 32px 29px;
+  padding: 0 29px 32px 29px;
   text-align: center;
   margin: 0;
 
@@ -19,7 +19,7 @@
   line-height: 21px;
   font-weight: 400;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   br {
     display: none;
@@ -39,7 +39,7 @@
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 0;
 
   @media (min-width: $tablet-width) {
