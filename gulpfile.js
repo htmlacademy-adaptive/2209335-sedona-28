@@ -6,7 +6,6 @@ import csso from 'postcss-csso';
 import rename from 'gulp-rename';
 import autoprefixer from 'autoprefixer';
 import browser from 'browser-sync';
-import htmlmin from 'gulp-htmlmin';
 import terser from 'gulp-terser';
 import squoosh from 'gulp-libsquoosh';
 import svgo from 'gulp-svgmin';
@@ -28,14 +27,14 @@ export const styles = () => {
     .pipe(browser.stream());
 }
 
-
 // HTML
 
 const html = () => {
   return gulp.src('source/*.html')
-    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('build'));
+
 }
+
 
 //Scripts
 
